@@ -1,0 +1,632 @@
+[04-Oct-2025 16:09:34 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/rookieve/public_html/team/team_header.php on line 10
+[04-Oct-2025 16:09:48 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/rookieve/public_html/team/team_header.php on line 10
+[04-Oct-2025 16:12:03 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/rookieve/public_html/team/team_header.php on line 10
+[04-Oct-2025 17:23:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/panel.php on line 6
+[04-Oct-2025 17:59:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:01:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:01:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:02:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:02:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:02:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:15:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:15:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:21:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(56): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:30:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:30:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 19:28:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/create_course.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/create_course.php on line 3
+[04-Oct-2025 19:28:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/create_course.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/create_course.php on line 3
+[04-Oct-2025 19:28:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/create_course.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/create_course.php on line 3
+[04-Oct-2025 19:28:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/create_course.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/create_course.php on line 3
+[04-Oct-2025 19:28:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/create_course.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/create_course.php on line 3
+[04-Oct-2025 19:28:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/create_course.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/create_course.php on line 3
+[04-Oct-2025 19:29:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/create_course.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/create_course.php on line 3
+[05-Oct-2025 10:10:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/notifications.php on line 21
+[05-Oct-2025 10:10:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/notifications.php on line 29
+[07-Oct-2025 11:36:15 UTC] PHP Warning:  Undefined variable $data in /home/rookieve/public_html/team/edit_module_content.php on line 30
+[07-Oct-2025 12:43:41 UTC] PHP Warning:  Undefined variable $unreadTotal in /home/rookieve/public_html/team/list_questions.php on line 228
+[07-Oct-2025 12:53:35 UTC] PHP Warning:  Undefined variable $pdo in /home/rookieve/public_html/team/team_header.php on line 4
+[07-Oct-2025 12:53:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/rookieve/public_html/team/team_header.php:4
+Stack trace:
+#0 /home/rookieve/public_html/team/profile.php(6): require_once()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/team_header.php on line 4
+[07-Oct-2025 13:54:11 UTC] PHP Warning:  require_once(/home/rookieve/public_html/../config.php): Failed to open stream: No such file or directory in /home/rookieve/public_html/team/update_module_title.php on line 14
+[07-Oct-2025 14:38:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(76): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[07-Oct-2025 14:38:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(56): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[07-Oct-2025 15:27:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(76): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[07-Oct-2025 15:27:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(76): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[07-Oct-2025 15:27:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(76): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 194
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 194
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 194
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 194
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 198
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 194
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 194
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 194
+[07-Oct-2025 16:29:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 194
+[07-Oct-2025 19:29:17 UTC] PHP Parse error:  syntax error, unexpected identifier " " in /home/rookieve/public_html/team/list_questions.php on line 16
+[07-Oct-2025 19:29:19 UTC] PHP Parse error:  syntax error, unexpected identifier " " in /home/rookieve/public_html/team/list_questions.php on line 16
+[07-Oct-2025 19:29:43 UTC] PHP Parse error:  syntax error, unexpected identifier " " in /home/rookieve/public_html/team/list_questions.php on line 16
+[07-Oct-2025 19:29:44 UTC] PHP Parse error:  syntax error, unexpected identifier " " in /home/rookieve/public_html/team/list_questions.php on line 16
+[07-Oct-2025 19:31:05 UTC] PHP Parse error:  syntax error, unexpected identifier " " in /home/rookieve/public_html/team/list_questions.php on line 17
+[07-Oct-2025 19:36:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:36
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(61): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 36
+[07-Oct-2025 19:36:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:36
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(61): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 36
+[07-Oct-2025 19:37:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(76): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[07-Oct-2025 19:49:30 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[07-Oct-2025 19:49:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[07-Oct-2025 19:49:31 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[07-Oct-2025 19:49:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:9) in /home/rookieve/public_html/team/notifications.php on line 8
+[07-Oct-2025 19:49:35 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[07-Oct-2025 19:49:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:9) in /home/rookieve/public_html/team/notifications.php on line 8
+[07-Oct-2025 19:50:35 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[07-Oct-2025 19:50:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:9) in /home/rookieve/public_html/team/notifications.php on line 8
+[07-Oct-2025 19:50:35 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[07-Oct-2025 19:50:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[07-Oct-2025 20:58:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(56): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[07-Oct-2025 21:48:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rookieve_frc_rookieverse.team_requests' doesn't exist in /home/rookieve/public_html/team/panel.php:36
+Stack trace:
+#0 /home/rookieve/public_html/team/panel.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/rookieve/public_html/team/panel.php on line 36
+[07-Oct-2025 21:48:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rookieve_frc_rookieverse.requests' doesn't exist in /home/rookieve/public_html/team/panel.php:36
+Stack trace:
+#0 /home/rookieve/public_html/team/panel.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/rookieve/public_html/team/panel.php on line 36
+[07-Oct-2025 21:48:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rookieve_frc_rookieverse.requests' doesn't exist in /home/rookieve/public_html/team/panel.php:36
+Stack trace:
+#0 /home/rookieve/public_html/team/panel.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/rookieve/public_html/team/panel.php on line 36
+[07-Oct-2025 23:03:22 UTC] PHP Warning:  Undefined array key "is_deleted" in /home/rookieve/public_html/team/editCourse.php on line 132
+[07-Oct-2025 23:03:36 UTC] PHP Warning:  Undefined array key "is_deleted" in /home/rookieve/public_html/team/editCourse.php on line 132
+[07-Oct-2025 23:05:19 UTC] PHP Warning:  Undefined array key "is_deleted" in /home/rookieve/public_html/team/editCourse.php on line 132
+[08-Oct-2025 14:55:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:12) in /home/rookieve/public_html/team/notifications.php on line 29
+[08-Oct-2025 17:08:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(56): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[08-Oct-2025 17:08:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(56): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[08-Oct-2025 17:08:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(56): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[08-Oct-2025 17:08:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(56): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[08-Oct-2025 17:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(56): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[08-Oct-2025 17:09:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(56): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[08-Oct-2025 17:51:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(56): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[08-Oct-2025 18:55:40 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[08-Oct-2025 18:55:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[08-Oct-2025 18:55:47 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[08-Oct-2025 18:55:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[08-Oct-2025 18:55:48 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[08-Oct-2025 18:55:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[08-Oct-2025 18:55:49 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[08-Oct-2025 18:55:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[08-Oct-2025 18:55:49 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[08-Oct-2025 18:55:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[08-Oct-2025 18:55:50 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[08-Oct-2025 18:55:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[08-Oct-2025 18:55:50 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/notifications.php on line 10
+[08-Oct-2025 18:55:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/notifications.php:10) in /home/rookieve/public_html/team/notifications.php on line 14
+[08-Oct-2025 18:55:51 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[08-Oct-2025 18:55:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[08-Oct-2025 18:55:53 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[08-Oct-2025 18:55:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[08-Oct-2025 18:55:53 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[08-Oct-2025 18:55:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[08-Oct-2025 18:59:24 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 9
+[08-Oct-2025 18:59:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[08-Oct-2025 19:00:43 UTC] PHP Warning:  Undefined array key "team_is_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:00:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:00:43 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:00:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[08-Oct-2025 19:00:44 UTC] PHP Warning:  Undefined array key "team_is_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:00:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:00:44 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:00:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[08-Oct-2025 19:01:18 UTC] PHP Warning:  Undefined array key "team_is_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:18 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:01:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[08-Oct-2025 19:01:20 UTC] PHP Warning:  Undefined array key "team_is_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:20 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:01:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 10
+[08-Oct-2025 19:01:37 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:37 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:37 UTC] PHP Warning:  Undefined array key "team_is_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:37 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:01:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 12
+[08-Oct-2025 19:01:38 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:38 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:38 UTC] PHP Warning:  Undefined array key "team_is_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:38 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:01:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 12
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Undefined array key "team_is_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:01:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 12
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Undefined array key "team_is_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:01:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 12
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Undefined array key "team_is_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:39 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:01:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 12
+[08-Oct-2025 19:01:40 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:40 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:40 UTC] PHP Warning:  Undefined array key "team_is_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:40 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:01:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 12
+[08-Oct-2025 19:01:40 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:40 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:40 UTC] PHP Warning:  Undefined array key "team_is_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:40 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:01:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 12
+[08-Oct-2025 19:01:43 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:43 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:01:43 UTC] PHP Warning:  Undefined array key "team_is_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:01:43 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:01:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 12
+[08-Oct-2025 19:03:50 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:03:50 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:03:50 UTC] PHP Warning:  Undefined array key "team_is_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:03:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:03:50 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:03:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 12
+[08-Oct-2025 19:03:50 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:03:50 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:03:50 UTC] PHP Warning:  Undefined array key "team_is_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:03:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:03:50 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:03:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 12
+[08-Oct-2025 19:04:29 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:04:29 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:04:29 UTC] PHP Warning:  Undefined array key "team_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:04:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:04:29 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:04:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 12
+[08-Oct-2025 19:04:29 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:04:29 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:04:29 UTC] PHP Warning:  Undefined array key "team_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:04:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:04:29 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:04:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 12
+[08-Oct-2025 19:04:34 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:04:34 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:04:34 UTC] PHP Warning:  Undefined array key "team_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:04:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 19:04:34 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 19:04:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 12
+[08-Oct-2025 19:06:46 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 19:06:46 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 20:11:37 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 20:11:37 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 20:11:37 UTC] PHP Warning:  Undefined array key "team_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 20:11:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 20:11:37 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 20:11:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 13
+[08-Oct-2025 20:11:43 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 20:11:43 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 20:11:43 UTC] PHP Warning:  Undefined array key "team_logged_in" in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 20:11:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:2) in /home/rookieve/public_html/team/team_header.php on line 2
+[08-Oct-2025 20:11:43 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/team_header.php on line 11
+[08-Oct-2025 20:11:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 13
+[08-Oct-2025 20:44:41 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 20:44:41 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 20:44:45 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 20:44:45 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 20:45:14 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 20:45:14 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/team/list_questions.php on line 5
+[08-Oct-2025 20:45:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(56): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[08-Oct-2025 20:46:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:14) in /home/rookieve/public_html/team/list_questions.php on line 31
+[08-Oct-2025 20:47:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:14) in /home/rookieve/public_html/team/list_questions.php on line 50
+[09-Oct-2025 19:36:32 UTC] PHP Warning:  Undefined array key "team_logged_in" in /home/rookieve/public_html/team/list_questions.php on line 9
+[09-Oct-2025 19:36:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/list_questions.php:9) in /home/rookieve/public_html/team/list_questions.php on line 9
+[09-Oct-2025 19:36:32 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/list_questions.php on line 18
+[09-Oct-2025 19:36:36 UTC] PHP Warning:  Undefined array key "team_logged_in" in /home/rookieve/public_html/team/list_questions.php on line 9
+[09-Oct-2025 19:36:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/list_questions.php:9) in /home/rookieve/public_html/team/list_questions.php on line 9
+[09-Oct-2025 19:36:36 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/list_questions.php on line 18
+[09-Oct-2025 19:37:14 UTC] PHP Warning:  Undefined array key "team_logged_in" in /home/rookieve/public_html/team/list_questions.php on line 9
+[09-Oct-2025 19:37:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/list_questions.php:9) in /home/rookieve/public_html/team/list_questions.php on line 9
+[09-Oct-2025 19:37:14 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/list_questions.php on line 17
+[09-Oct-2025 19:37:49 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/list_questions.php on line 16
+[09-Oct-2025 19:37:57 UTC] PHP Warning:  Undefined array key "team_logged_in" in /home/rookieve/public_html/team/list_questions.php on line 9
+[09-Oct-2025 19:37:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/list_questions.php:9) in /home/rookieve/public_html/team/list_questions.php on line 9
+[09-Oct-2025 19:37:57 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/list_questions.php on line 17
+[09-Oct-2025 19:38:14 UTC] PHP Warning:  Undefined array key "team_logged_in" in /home/rookieve/public_html/team/list_questions.php on line 9
+[09-Oct-2025 19:38:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/list_questions.php:9) in /home/rookieve/public_html/team/list_questions.php on line 9
+[09-Oct-2025 19:38:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/list_questions.php:9) in /home/rookieve/public_html/team/list_questions.php on line 10
+[09-Oct-2025 19:38:14 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/list_questions.php on line 18
+[09-Oct-2025 19:38:28 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/list_questions.php on line 17
+[09-Oct-2025 19:42:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function h() in /home/rookieve/public_html/team/support_requests.php:150
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/support_requests.php on line 150
+[09-Oct-2025 19:43:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function h() in /home/rookieve/public_html/team/support_requests.php:152
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/support_requests.php on line 152
+[10-Oct-2025 21:40:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function h() in /home/rookieve/public_html/team/support_requests.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/support_requests.php on line 151
+[10-Oct-2025 23:44:36 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/list_questions.php on line 17
+[11-Oct-2025 01:09:01 UTC] PHP Parse error:  Unmatched '}' in /home/rookieve/public_html/team/support_requests.php on line 87
+[11-Oct-2025 01:09:04 UTC] PHP Parse error:  Unmatched '}' in /home/rookieve/public_html/team/support_requests.php on line 87
+[11-Oct-2025 01:09:05 UTC] PHP Parse error:  Unmatched '}' in /home/rookieve/public_html/team/support_requests.php on line 87
+[11-Oct-2025 01:09:06 UTC] PHP Parse error:  Unmatched '}' in /home/rookieve/public_html/team/support_requests.php on line 87
+[11-Oct-2025 01:09:07 UTC] PHP Parse error:  Unmatched '}' in /home/rookieve/public_html/team/support_requests.php on line 87
+[11-Oct-2025 01:09:07 UTC] PHP Parse error:  Unmatched '}' in /home/rookieve/public_html/team/support_requests.php on line 87
+[11-Oct-2025 01:09:07 UTC] PHP Parse error:  Unmatched '}' in /home/rookieve/public_html/team/support_requests.php on line 87
+[11-Oct-2025 01:09:08 UTC] PHP Parse error:  Unmatched '}' in /home/rookieve/public_html/team/support_requests.php on line 87
+[11-Oct-2025 01:09:08 UTC] PHP Parse error:  Unmatched '}' in /home/rookieve/public_html/team/support_requests.php on line 87
+[11-Oct-2025 01:09:08 UTC] PHP Parse error:  Unmatched '}' in /home/rookieve/public_html/team/support_requests.php on line 87
+[11-Oct-2025 01:09:08 UTC] PHP Parse error:  Unmatched '}' in /home/rookieve/public_html/team/support_requests.php on line 87
+[11-Oct-2025 01:09:14 UTC] PHP Parse error:  Unmatched '}' in /home/rookieve/public_html/team/support_requests.php on line 87
+[11-Oct-2025 05:57:17 UTC] PHP Warning:  Undefined array key "team_db_id" in /home/rookieve/public_html/team/list_questions.php on line 17
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:26 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 319
+[14-Oct-2025 20:14:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/team/notifications.php on line 322

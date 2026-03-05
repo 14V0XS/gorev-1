@@ -1,0 +1,4 @@
+# Bu klasör içindeki hiçbir PHP, PHTML, HTML veya JS dosyasının çalıştırılmasına izin verme.
+<FilesMatch "\.(php|phtml|html|js)$">
+  Deny from all
+</FilesMatch>

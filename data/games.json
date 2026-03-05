@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "updated_at": "2025-10-08T14:00:00Z",
+  "items": [
+    {
+      "slug": "wordGuesser",
+      "title": "Harf Tahmin",
+      "desc": "FRC terimlerini harf harf bularak puan topla.",
+      "type": "kelime",
+      "minutes": "3-5",
+      "players": "Tek",
+      "icon": "letter-text"
+    },
+    {
+      "slug": "multipleChoice",
+      "title": "Terim Quiz",
+      "desc": "Çoktan seçmeli sorularla bilgini ölç, hızlı puan kap.",
+      "type": "quiz",
+      "minutes": "4-6",
+      "players": "Tek",
+      "icon": "help-circle"
+    },
+    {
+      "slug": "flashcards",
+      "title": "Ezber Kartları",
+      "desc": "Hafıza kartlarıyla öğrenmeyi kolaylaştır.",
+      "type": "hafiza",
+      "minutes": "5-10",
+      "players": "Tek",
+      "icon": "brain"
+    },
+    {
+      "slug": "guessGame",
+      "title": "Takım Numarası Tahmin",
+      "desc": "FRC takımlarının isimlerinden doğru takım numarasını tahmin et.",
+      "type": "tahmin",
+      "minutes": "4-6",
+      "players": "Tek / İki",
+      "icon": "hash"
+    },
+    {
+      "slug": "taboo",
+      "title": "FRC Tabu",
+      "desc": "FRC terimleriyle tabu oynayarak eğlenerek öğrenin.",
+      "type": "tahmin",
+      "minutes": "1",
+      "players": "En az iki",
+      "icon": "message-square-more"
+    },
+    {
+      "slug": "flipGame",
+      "title": "Hafıza Kartları",
+      "desc": "Kartları çevir, aynı terimleri yakala.",
+      "type": "hafiza",
+      "minutes": "3-5",
+      "players": "Tek / İki",
+      "icon": "gallery-vertical-end"
+    }
+  ]
+}

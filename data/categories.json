@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "items": [
+    { "key": "safety",   "label": "Güvenlik" },
+    { "key": "software", "label": "Yazılım" }
+  ]
+}

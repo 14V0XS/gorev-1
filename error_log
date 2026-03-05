@@ -1,0 +1,1214 @@
+[04-Oct-2025 16:09:34 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/rookieve/public_html/team/team_header.php on line 10
+[04-Oct-2025 16:09:48 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/rookieve/public_html/team/team_header.php on line 10
+[04-Oct-2025 16:12:03 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/rookieve/public_html/team/team_header.php on line 10
+[04-Oct-2025 17:23:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/panel.php on line 6
+[04-Oct-2025 17:59:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:01:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:01:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:02:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:02:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:02:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:15:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:15:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:21:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/list_questions.php:31
+Stack trace:
+#0 /home/rookieve/public_html/team/list_questions.php(56): redirect_same()
+#1 {main}
+  thrown in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:30:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 18:30:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/team/team_header.php:5) in /home/rookieve/public_html/team/list_questions.php on line 31
+[04-Oct-2025 19:28:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/create_course.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/create_course.php on line 3
+[04-Oct-2025 19:28:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/create_course.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/create_course.php on line 3
+[04-Oct-2025 19:28:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/create_course.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/create_course.php on line 3
+[04-Oct-2025 19:28:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/create_course.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/create_course.php on line 3
+[04-Oct-2025 19:28:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/create_course.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/create_course.php on line 3
+[04-Oct-2025 19:28:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/rookieve/public_html/team/create_course.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/team/create_course.php on line 3
+[04-Oct-2025 19:40:26 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 278
+[04-Oct-2025 19:40:26 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 281
+[04-Oct-2025 19:40:28 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 278
+[04-Oct-2025 19:40:28 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 281
+[04-Oct-2025 19:40:33 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 278
+[04-Oct-2025 19:40:33 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 281
+[04-Oct-2025 19:40:50 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 19:40:55 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 19:40:57 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 19:42:52 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 19:42:54 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 19:42:59 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 19:43:21 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 20:29:30 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:29:32 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:29:38 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:29:55 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:29:57 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:30:04 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:30:04 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:30:04 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:30:05 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:30:05 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:30:24 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:30:28 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:30:43 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:32:09 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:34:31 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:34:31 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:34:31 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:34:31 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:34:32 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:34:32 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:34:32 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:39:26 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:39:26 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:39:27 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:39:27 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:40:28 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:40:33 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:40:34 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:40:34 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:40:34 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:40:35 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:40:35 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:40:35 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:40:36 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:40:36 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:40:40 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:42:09 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:42:10 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:42:31 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 141
+[04-Oct-2025 20:45:27 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/rookieve/public_html/teams.php on line 10
+[04-Oct-2025 20:45:33 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/rookieve/public_html/teams.php on line 10
+[04-Oct-2025 20:47:10 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:01:55 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:01:55 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:01:55 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:01:56 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:02:01 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:02:08 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:20:54 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 278
+[04-Oct-2025 21:20:54 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 281
+[04-Oct-2025 21:21:30 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:21:37 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:23:13 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:23:21 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:23:23 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:23:33 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 177
+[04-Oct-2025 21:23:33 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 227
+[04-Oct-2025 21:23:33 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 239
+[04-Oct-2025 21:23:33 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 276
+[04-Oct-2025 21:24:34 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 177
+[04-Oct-2025 21:24:34 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 227
+[04-Oct-2025 21:24:34 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 239
+[04-Oct-2025 21:24:34 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 276
+[04-Oct-2025 21:24:41 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 177
+[04-Oct-2025 21:24:41 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 227
+[04-Oct-2025 21:24:41 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 239
+[04-Oct-2025 21:24:41 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 276
+[04-Oct-2025 21:24:52 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 177
+[04-Oct-2025 21:24:52 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 227
+[04-Oct-2025 21:24:52 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 239
+[04-Oct-2025 21:24:52 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 276
+[04-Oct-2025 21:25:13 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 177
+[04-Oct-2025 21:25:13 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 227
+[04-Oct-2025 21:25:13 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 239
+[04-Oct-2025 21:25:13 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 276
+[04-Oct-2025 21:25:16 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 177
+[04-Oct-2025 21:25:16 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 227
+[04-Oct-2025 21:25:16 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 239
+[04-Oct-2025 21:25:16 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 276
+[04-Oct-2025 21:25:32 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 177
+[04-Oct-2025 21:25:32 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 227
+[04-Oct-2025 21:25:32 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 239
+[04-Oct-2025 21:25:32 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 276
+[04-Oct-2025 21:25:41 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 177
+[04-Oct-2025 21:25:41 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 227
+[04-Oct-2025 21:25:41 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 239
+[04-Oct-2025 21:25:41 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 276
+[04-Oct-2025 21:26:45 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 177
+[04-Oct-2025 21:26:45 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 227
+[04-Oct-2025 21:26:45 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 239
+[04-Oct-2025 21:26:45 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 276
+[04-Oct-2025 21:26:49 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 177
+[04-Oct-2025 21:26:49 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 227
+[04-Oct-2025 21:26:49 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 239
+[04-Oct-2025 21:26:49 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 276
+[04-Oct-2025 21:26:54 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 177
+[04-Oct-2025 21:26:54 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 227
+[04-Oct-2025 21:26:54 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 239
+[04-Oct-2025 21:26:54 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 276
+[04-Oct-2025 21:27:06 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 177
+[04-Oct-2025 21:27:06 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 227
+[04-Oct-2025 21:27:06 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 239
+[04-Oct-2025 21:27:06 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 276
+[04-Oct-2025 21:30:47 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 176
+[04-Oct-2025 21:30:47 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 226
+[04-Oct-2025 21:30:47 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 238
+[04-Oct-2025 21:30:47 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 275
+[04-Oct-2025 21:32:51 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 176
+[04-Oct-2025 21:32:51 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 226
+[04-Oct-2025 21:32:51 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 238
+[04-Oct-2025 21:32:51 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 275
+[04-Oct-2025 21:33:55 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 176
+[04-Oct-2025 21:33:55 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 226
+[04-Oct-2025 21:33:55 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 238
+[04-Oct-2025 21:33:55 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 275
+[04-Oct-2025 21:34:13 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 177
+[04-Oct-2025 21:34:13 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 227
+[04-Oct-2025 21:34:13 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 239
+[04-Oct-2025 21:34:13 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 276
+[04-Oct-2025 21:34:38 UTC] PHP Warning:  Array to string conversion in /home/rookieve/public_html/moduleDetails.php on line 92
+[04-Oct-2025 21:34:38 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 176
+[04-Oct-2025 21:34:38 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 226
+[04-Oct-2025 21:34:38 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 238
+[04-Oct-2025 21:34:38 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 275
+[04-Oct-2025 21:35:52 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 176
+[04-Oct-2025 21:35:52 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 226
+[04-Oct-2025 21:35:52 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 238
+[04-Oct-2025 21:35:52 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 275
+[04-Oct-2025 21:36:33 UTC] PHP Warning:  Undefined array key 0 in /home/rookieve/public_html/moduleDetails.php on line 93
+[04-Oct-2025 21:36:33 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 93
+[04-Oct-2025 21:36:33 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 176
+[04-Oct-2025 21:36:33 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 226
+[04-Oct-2025 21:36:33 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 238
+[04-Oct-2025 21:36:33 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 275
+[04-Oct-2025 21:37:00 UTC] PHP Warning:  Undefined array key 0 in /home/rookieve/public_html/moduleDetails.php on line 93
+[04-Oct-2025 21:37:00 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 93
+[04-Oct-2025 21:37:00 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 176
+[04-Oct-2025 21:37:00 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 226
+[04-Oct-2025 21:37:00 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 238
+[04-Oct-2025 21:37:00 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 275
+[04-Oct-2025 21:37:07 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 176
+[04-Oct-2025 21:37:07 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 226
+[04-Oct-2025 21:37:07 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 238
+[04-Oct-2025 21:37:07 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 275
+[04-Oct-2025 21:39:31 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:39:33 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:40:41 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:40:46 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:41:17 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:41:33 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:41:59 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:42:05 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:42:10 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:46:33 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 176
+[04-Oct-2025 21:46:33 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 226
+[04-Oct-2025 21:46:33 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 238
+[04-Oct-2025 21:46:33 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 275
+[04-Oct-2025 21:48:29 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 176
+[04-Oct-2025 21:48:29 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 226
+[04-Oct-2025 21:48:29 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 238
+[04-Oct-2025 21:48:29 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 275
+[04-Oct-2025 21:49:57 UTC] PHP Fatal error:  Uncaught ValueError: setcookie(): "path" option cannot contain ",", ";", " ", "\t", "\r", "\n", "\013", or "\014" in /home/rookieve/public_html/reactions_api.php:36
+Stack trace:
+#0 /home/rookieve/public_html/reactions_api.php(36): setcookie('rv_anon', 'e828ede859d8844...', 1791150597, '/; samesite=Lax', '', false, true)
+#1 {main}
+  thrown in /home/rookieve/public_html/reactions_api.php on line 36
+[04-Oct-2025 21:51:25 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:51:46 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[04-Oct-2025 21:56:56 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[04-Oct-2025 21:56:56 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[04-Oct-2025 22:01:04 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[04-Oct-2025 22:01:04 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[04-Oct-2025 22:01:23 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[04-Oct-2025 22:01:23 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[04-Oct-2025 22:01:25 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[04-Oct-2025 22:01:25 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[04-Oct-2025 22:13:22 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[04-Oct-2025 22:13:22 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[04-Oct-2025 22:14:39 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[04-Oct-2025 22:14:39 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[05-Oct-2025 02:37:20 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 02:37:20 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 02:37:20 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 02:37:20 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 02:37:20 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 05:32:52 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 05:44:10 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[05-Oct-2025 05:44:10 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[05-Oct-2025 05:44:12 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[05-Oct-2025 05:44:12 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[05-Oct-2025 05:44:41 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[05-Oct-2025 05:44:41 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[05-Oct-2025 05:44:52 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[05-Oct-2025 05:44:52 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[05-Oct-2025 06:12:35 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:12:36 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:13:26 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:13:35 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:20:26 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:20:27 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:20:29 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:20:41 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:20:44 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:20:45 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:20:47 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:20:51 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:57:22 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:57:26 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:57:27 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:57:28 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 06:57:31 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 07:09:03 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 07:09:05 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 07:09:29 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 07:09:41 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 07:11:49 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 07:12:03 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 07:12:18 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 08:30:25 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 08:30:30 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 08:43:49 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 09:52:06 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 14:52:15 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[05-Oct-2025 14:52:15 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[05-Oct-2025 15:32:06 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[05-Oct-2025 21:38:23 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[05-Oct-2025 21:38:23 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[06-Oct-2025 08:37:43 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[06-Oct-2025 08:38:08 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[06-Oct-2025 14:01:12 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[06-Oct-2025 14:01:12 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[06-Oct-2025 14:36:55 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[06-Oct-2025 14:36:55 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[06-Oct-2025 15:12:07 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[06-Oct-2025 15:25:25 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[06-Oct-2025 15:58:57 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[06-Oct-2025 15:58:59 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[06-Oct-2025 16:49:05 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[06-Oct-2025 16:51:44 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[06-Oct-2025 17:35:56 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[06-Oct-2025 17:58:07 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[06-Oct-2025 18:01:19 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[06-Oct-2025 18:36:41 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[06-Oct-2025 18:36:41 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[06-Oct-2025 22:01:33 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:01:38 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:01:41 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:02:42 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:02:47 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:02:49 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:02:51 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:02:52 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:02:53 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:02:55 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:03:01 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:03:07 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:03:09 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:03:10 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:03:10 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:03:11 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:03:11 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:03:11 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:03:12 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:03:12 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:03:12 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:04:24 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:06:35 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:06:37 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:07:07 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:09:46 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:09:47 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:09:48 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:09:51 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:10:05 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:10:06 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:10:08 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:15:26 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:18:01 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:18:02 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:18:05 UTC] PHP Parse error:  syntax error, unexpected ':', expecting '{' in /home/rookieve/public_html/config.php on line 140
+[06-Oct-2025 22:18:17 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "," in /home/rookieve/public_html/404code.php on line 221
+[06-Oct-2025 22:18:20 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "," in /home/rookieve/public_html/404code.php on line 221
+[06-Oct-2025 22:28:33 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "," in /home/rookieve/public_html/404code.php on line 218
+[06-Oct-2025 22:29:51 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "," in /home/rookieve/public_html/404code.php on line 219
+[06-Oct-2025 22:30:05 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[07-Oct-2025 09:46:16 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[07-Oct-2025 09:46:34 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[07-Oct-2025 09:46:44 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 15
+[07-Oct-2025 12:06:19 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[07-Oct-2025 12:06:19 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[07-Oct-2025 12:06:52 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[07-Oct-2025 12:06:52 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[07-Oct-2025 12:06:57 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[07-Oct-2025 12:06:57 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[07-Oct-2025 12:07:21 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[07-Oct-2025 12:07:21 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[07-Oct-2025 12:09:10 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[07-Oct-2025 12:09:10 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[07-Oct-2025 12:12:01 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[07-Oct-2025 12:12:01 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[07-Oct-2025 12:12:50 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[07-Oct-2025 12:12:50 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[07-Oct-2025 12:13:16 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[07-Oct-2025 12:13:16 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[07-Oct-2025 12:14:30 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 291
+[07-Oct-2025 12:14:30 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[07-Oct-2025 12:39:36 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 12:39:43 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 12:48:08 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 294
+[07-Oct-2025 12:48:08 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 297
+[07-Oct-2025 13:00:57 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 13:00:57 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 42
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 216
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 225
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 289
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 295
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 300
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 309
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 313
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 316
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 325
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 332
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 339
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 352
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 522
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 531
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 541
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 542
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 545
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 550
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 554
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 558
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 562
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 809
+[07-Oct-2025 13:01:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 844
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 42
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 216
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 225
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 289
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 295
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 300
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 309
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 313
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 316
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 325
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 332
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 339
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 352
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 522
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 531
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 541
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 542
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 545
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 550
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 554
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 558
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 562
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 809
+[07-Oct-2025 13:01:20 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 844
+[07-Oct-2025 13:07:46 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 13:07:46 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 13:08:55 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 13:08:55 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 13:23:10 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 13:35:31 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 13:35:31 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 13:42:50 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 13:42:50 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 13:42:51 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 13:42:51 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 13:43:06 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 13:43:06 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 13:43:36 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 13:43:36 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 13:49:04 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 13:49:04 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 14:36:37 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 14:36:37 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 14:36:55 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 185
+[07-Oct-2025 14:36:55 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/moduleDetails.php on line 287
+[07-Oct-2025 14:36:55 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 14:36:55 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 14:40:08 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 14:44:59 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 14:45:01 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:24:14 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 15:24:14 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 15:46:24 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:46:24 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:54:03 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:54:04 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:54:04 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:54:05 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:54:08 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:54:09 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:54:10 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:54:10 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:54:11 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:54:11 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:54:12 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:54:12 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 15:54:13 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 16:17:24 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 17:39:49 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 17:39:50 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 17:39:54 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 17:39:55 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 17:48:47 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 17:48:50 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 30
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 42
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 216
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 225
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 289
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 295
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 300
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 309
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 313
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 316
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 325
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 332
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 339
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 352
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 522
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 531
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 541
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 542
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 545
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 550
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 554
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 558
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 562
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 809
+[07-Oct-2025 19:38:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 844
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 30
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 42
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 216
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 225
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 289
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 295
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 300
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 309
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 313
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 316
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 325
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 332
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 339
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 352
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 522
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 531
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 541
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 542
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 545
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 550
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 554
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 558
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 562
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 809
+[07-Oct-2025 19:38:57 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 844
+[07-Oct-2025 19:53:08 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 19:53:08 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 19:53:23 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 19:53:32 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 19:53:32 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 42
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 216
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 225
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 289
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 295
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 300
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 309
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 313
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 316
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 325
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 332
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 339
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 352
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 522
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 531
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 541
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 542
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 545
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 550
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 554
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 558
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 562
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 809
+[07-Oct-2025 19:53:36 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 844
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 42
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 216
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 225
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 289
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 295
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 300
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 309
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 313
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 316
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 325
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 332
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 339
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 352
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 522
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 531
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 541
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 542
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 545
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 550
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 554
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 558
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 562
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 809
+[07-Oct-2025 19:53:44 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 844
+[07-Oct-2025 19:54:00 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 19:54:00 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 19:55:18 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 19:55:18 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 20:00:29 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:00:30 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:01:08 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:01:26 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:02:12 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:02:20 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:02:26 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:08:30 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:08:31 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:09:18 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:09:19 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:09:28 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:09:31 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:09:34 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:09:47 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 20:36:18 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 296
+[07-Oct-2025 20:36:18 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 299
+[07-Oct-2025 21:10:38 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:10:41 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:10:45 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:10:46 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:10:50 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:10:56 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:11:00 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:17:02 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rookieve/public_html/teams.php on line 47
+[07-Oct-2025 21:17:04 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rookieve/public_html/teams.php on line 47
+[07-Oct-2025 21:17:17 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/rookieve/public_html/teams.php on line 47
+[07-Oct-2025 21:17:34 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:17:36 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:17:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/navbar.php:3) in /home/rookieve/public_html/teams.php on line 116
+[07-Oct-2025 21:17:38 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:17:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/navbar.php:3) in /home/rookieve/public_html/teams.php on line 116
+[07-Oct-2025 21:17:38 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:17:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/navbar.php:3) in /home/rookieve/public_html/teams.php on line 116
+[07-Oct-2025 21:17:38 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:17:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/navbar.php:3) in /home/rookieve/public_html/teams.php on line 116
+[07-Oct-2025 21:17:39 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:17:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/navbar.php:3) in /home/rookieve/public_html/teams.php on line 116
+[07-Oct-2025 21:18:17 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:18:20 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:18:21 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:18:36 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:18:39 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:18:40 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:20:51 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:20:54 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:20:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/navbar.php:3) in /home/rookieve/public_html/teams.php on line 115
+[07-Oct-2025 21:20:55 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:20:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/navbar.php:3) in /home/rookieve/public_html/teams.php on line 115
+[07-Oct-2025 21:20:55 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:20:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/navbar.php:3) in /home/rookieve/public_html/teams.php on line 115
+[07-Oct-2025 21:20:56 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:20:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/navbar.php:3) in /home/rookieve/public_html/teams.php on line 115
+[07-Oct-2025 21:20:56 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:20:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/navbar.php:3) in /home/rookieve/public_html/teams.php on line 115
+[07-Oct-2025 21:20:57 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:20:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/navbar.php:3) in /home/rookieve/public_html/teams.php on line 115
+[07-Oct-2025 21:21:07 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:21:10 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:21:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/navbar.php:3) in /home/rookieve/public_html/teams.php on line 115
+[07-Oct-2025 21:21:47 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:21:49 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:22:06 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:22:08 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:22:09 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:22:17 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:22:20 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:23:15 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 21:25:26 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 302
+[07-Oct-2025 21:25:26 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 305
+[07-Oct-2025 21:25:35 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 302
+[07-Oct-2025 21:25:35 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 305
+[07-Oct-2025 21:25:50 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[07-Oct-2025 23:09:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_deleted' in 'where clause' in /home/rookieve/public_html/config.php:134
+Stack trace:
+#0 /home/rookieve/public_html/config.php(134): PDOStatement->execute()
+#1 /home/rookieve/public_html/courses.php(5): getApprovedCategories()
+#2 {main}
+  thrown in /home/rookieve/public_html/config.php on line 134
+[08-Oct-2025 00:57:40 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 01:09:53 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 01:26:16 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 01:35:38 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 01:45:00 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 02:03:45 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 02:41:15 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 03:00:00 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 03:02:30 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 07:45:31 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 07:45:35 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 07:46:27 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 07:46:28 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 07:47:15 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 08:59:12 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 09:59:33 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 09:59:37 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 09:59:50 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 11:10:59 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 11:12:22 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 12:27:29 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:11:22 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:11:40 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:11:41 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:12:22 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:13:27 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:13:27 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:13:43 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:14:31 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:14:44 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:15:28 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:15:42 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:18:54 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:19:00 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:19:04 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:19:05 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:19:06 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:19:12 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:19:36 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 13:20:12 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 14:54:12 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 14:54:14 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 14:54:16 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 14:54:19 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 14:54:50 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 23
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/courseDetails.php:23) in /home/rookieve/public_html/courseDetails.php on line 24
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 48
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 222
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 224
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 238
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 302
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 308
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 313
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 322
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 326
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 329
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 338
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 345
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 352
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 365
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 531
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 540
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 550
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 551
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 554
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 559
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 563
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 567
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 571
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 779
+[08-Oct-2025 16:32:37 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 806
+[08-Oct-2025 16:32:40 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 16:32:44 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 17:01:58 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 17:01:59 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 17:02:09 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 17:02:14 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 17:02:35 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 17:04:43 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 302
+[08-Oct-2025 18:34:13 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 302
+[08-Oct-2025 18:34:46 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 302
+[08-Oct-2025 18:34:48 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 305
+[08-Oct-2025 20:12:21 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 20:12:22 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 21:43:46 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 302
+[08-Oct-2025 21:43:54 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 21:47:50 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 21:47:52 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 21:47:57 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[08-Oct-2025 21:47:58 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[09-Oct-2025 06:19:32 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[09-Oct-2025 06:19:40 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[09-Oct-2025 08:13:23 UTC] PHP Fatal error:  Uncaught ValueError: setcookie(): "path" option cannot contain ",", ";", " ", "\t", "\r", "\n", "\013", or "\014" in /home/rookieve/public_html/reactions_api.php:36
+Stack trace:
+#0 /home/rookieve/public_html/reactions_api.php(36): setcookie('rv_anon', '969b87aac1614ac...', 1791533603, '/; samesite=Lax', '', false, true)
+#1 {main}
+  thrown in /home/rookieve/public_html/reactions_api.php on line 36
+[09-Oct-2025 08:13:25 UTC] PHP Fatal error:  Uncaught ValueError: setcookie(): "path" option cannot contain ",", ";", " ", "\t", "\r", "\n", "\013", or "\014" in /home/rookieve/public_html/reactions_api.php:36
+Stack trace:
+#0 /home/rookieve/public_html/reactions_api.php(36): setcookie('rv_anon', '4a706b3ed39953c...', 1791533605, '/; samesite=Lax', '', false, true)
+#1 {main}
+  thrown in /home/rookieve/public_html/reactions_api.php on line 36
+[09-Oct-2025 08:13:25 UTC] PHP Fatal error:  Uncaught ValueError: setcookie(): "path" option cannot contain ",", ";", " ", "\t", "\r", "\n", "\013", or "\014" in /home/rookieve/public_html/reactions_api.php:36
+Stack trace:
+#0 /home/rookieve/public_html/reactions_api.php(36): setcookie('rv_anon', '0f42be4dc129972...', 1791533605, '/; samesite=Lax', '', false, true)
+#1 {main}
+  thrown in /home/rookieve/public_html/reactions_api.php on line 36
+[09-Oct-2025 08:13:25 UTC] PHP Fatal error:  Uncaught ValueError: setcookie(): "path" option cannot contain ",", ";", " ", "\t", "\r", "\n", "\013", or "\014" in /home/rookieve/public_html/reactions_api.php:36
+Stack trace:
+#0 /home/rookieve/public_html/reactions_api.php(36): setcookie('rv_anon', 'c244f70b2f2972f...', 1791533605, '/; samesite=Lax', '', false, true)
+#1 {main}
+  thrown in /home/rookieve/public_html/reactions_api.php on line 36
+[09-Oct-2025 08:13:26 UTC] PHP Fatal error:  Uncaught ValueError: setcookie(): "path" option cannot contain ",", ";", " ", "\t", "\r", "\n", "\013", or "\014" in /home/rookieve/public_html/reactions_api.php:36
+Stack trace:
+#0 /home/rookieve/public_html/reactions_api.php(36): setcookie('rv_anon', '14c9cd982c98014...', 1791533606, '/; samesite=Lax', '', false, true)
+#1 {main}
+  thrown in /home/rookieve/public_html/reactions_api.php on line 36
+[09-Oct-2025 08:13:26 UTC] PHP Fatal error:  Uncaught ValueError: setcookie(): "path" option cannot contain ",", ";", " ", "\t", "\r", "\n", "\013", or "\014" in /home/rookieve/public_html/reactions_api.php:36
+Stack trace:
+#0 /home/rookieve/public_html/reactions_api.php(36): setcookie('rv_anon', 'd787cddd26d22ab...', 1791533606, '/; samesite=Lax', '', false, true)
+#1 {main}
+  thrown in /home/rookieve/public_html/reactions_api.php on line 36
+[09-Oct-2025 08:13:26 UTC] PHP Fatal error:  Uncaught ValueError: setcookie(): "path" option cannot contain ",", ";", " ", "\t", "\r", "\n", "\013", or "\014" in /home/rookieve/public_html/reactions_api.php:36
+Stack trace:
+#0 /home/rookieve/public_html/reactions_api.php(36): setcookie('rv_anon', 'c5bf7af1b771597...', 1791533606, '/; samesite=Lax', '', false, true)
+#1 {main}
+  thrown in /home/rookieve/public_html/reactions_api.php on line 36
+[09-Oct-2025 08:13:26 UTC] PHP Fatal error:  Uncaught ValueError: setcookie(): "path" option cannot contain ",", ";", " ", "\t", "\r", "\n", "\013", or "\014" in /home/rookieve/public_html/reactions_api.php:36
+Stack trace:
+#0 /home/rookieve/public_html/reactions_api.php(36): setcookie('rv_anon', '204b6fc3c46bc71...', 1791533606, '/; samesite=Lax', '', false, true)
+#1 {main}
+  thrown in /home/rookieve/public_html/reactions_api.php on line 36
+[09-Oct-2025 08:14:54 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 305
+[09-Oct-2025 08:15:41 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 302
+[09-Oct-2025 08:26:07 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[09-Oct-2025 17:02:37 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[09-Oct-2025 17:09:30 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 302
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 23
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/courseDetails.php:23) in /home/rookieve/public_html/courseDetails.php on line 24
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 48
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 222
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 224
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 238
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 302
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 308
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 313
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 322
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 326
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 329
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 338
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 345
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 352
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 365
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 531
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 540
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 550
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 551
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 554
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 559
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 563
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 567
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 571
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 779
+[09-Oct-2025 17:20:12 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 806
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 23
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/courseDetails.php:23) in /home/rookieve/public_html/courseDetails.php on line 24
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 48
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 222
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 224
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 238
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 302
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 308
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 313
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 322
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 326
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 329
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 338
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 345
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 352
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 365
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 531
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 540
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 550
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 551
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 554
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 559
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 563
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 567
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 571
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 779
+[09-Oct-2025 17:55:48 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 806
+[09-Oct-2025 20:57:43 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[10-Oct-2025 11:25:53 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[11-Oct-2025 07:11:50 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 302
+[11-Oct-2025 12:14:08 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[11-Oct-2025 12:15:11 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[11-Oct-2025 12:15:22 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[11-Oct-2025 15:38:30 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[11-Oct-2025 15:38:31 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[11-Oct-2025 15:38:31 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/rookieve/public_html/navbar.php on line 16
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 38
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 38
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 50
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 50
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 194
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 194
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 206
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 206
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 224
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 224
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 226
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 226
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 240
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 240
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 304
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 304
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 310
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 310
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 315
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 315
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 324
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 324
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 328
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 328
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 331
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 331
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 340
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 340
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 347
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 347
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 354
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 354
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 533
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 533
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 542
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 542
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 552
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 553
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 556
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 561
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 565
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 569
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 573
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 781
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 781
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Undefined variable $course in /home/rookieve/public_html/courseDetails.php on line 808
+[11-Oct-2025 17:59:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/courseDetails.php on line 808
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 24
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/courseDetails.php:24) in /home/rookieve/public_html/courseDetails.php on line 25
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 51
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 231
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 233
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 247
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 311
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 317
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 322
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 331
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 335
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 338
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 347
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 354
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 361
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 374
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 540
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 549
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 559
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 560
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 563
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 568
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 572
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 576
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 580
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 790
+[12-Oct-2025 08:53:00 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 817
+[12-Oct-2025 12:03:51 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 12
+[12-Oct-2025 12:03:51 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcmgucrAAAAAO39Mj17DgqOSXWx-K6_i5sFMHHN&amp;response=0cAFcWeA64PmPpBLtky-Kv3VZFBAmvUOZEQmg6zD5mshEo7njq56DSZufoY1bBAmlJAFTQnKQsXiL8OV4ekjtUj9ZFqz3FDR5i0nuEMc8rgnq6cnW1phBmDZmWqfr2gRDXqQCbjHN1OihGrmw2BNoI144Uvp9v92Pg99CbQF7EdQtGm98-J4Dm2Nu4ChWLPc2G4Lc_Yuz4OQFJ_Hnz22eKR6Fix9ptS3c0ny_D9b_dmmZBESzpAjnqMyCoRiy6T5XY52dO1oGKJVFq5Uk6qiP4z9l6ozfC0v6EnvY_C1gRWyBNYJQjoHut3dI5VGsnVww2xwZZnsWEtEaXTFWUBnc_MClSqMRIw48FgzUWmJJOGlEXjC4gmFdiIFS5Dzwy6twzMer_vLyAnfTYRwEHtimkiktBtqmD2aPM2jkh_vLG-PNl7j_unmtnNADEyq3InK7XPhzi3AUbluFMEXwPQyzRipr_hsgbyHBquAsU9ANrjN62f-IKjQ7D6gyaLgVyC3UbGRHGJ1ynOmBLf0QGdZdeueoKCtMZd8PvPQLfPmNPzvwlwDkkYBBbZ0xUJhfyZXDtUh_NzsXecd9FwjfrGfOQlCUtNh85_txko-w1NH_FiTZK_wFMYGzp23Sa79REAN8C7piOKFRsd33yNMccmZmzAUEK-JgqrhYgHjWYrz3BhTvrBnQEvbkyA1ELzJHaB0BbYxVx0Kdyj6desHjPcdZY2P8uJkMsD2B2gXLqKONrcqGZcMrwV5Iup7ka7JxzZFzffUcX49Xjz4YEz9ervL9HFSVuJCrpGX21NQsLdJJVcjY5j_xsfXHJ82erhWS9RprEhBgr5SFQEE7KnhJXnr19_AyhUL1OXMsI_uinUXHyKMlluv5-fliingFpXOtr5pOuXMKQP1i0IRxZL4c3vltJXVLIdXrUCJ8hsEORDSzpoSKi_E_GEKN9U4PkF4greFocf_rWYkF8MUrQlAF50QkQ98koPac6OADz69qM5mLhwVcVeVCngHLagUallpXepfKq-MGmaX8NU72MmAUHnXC3SLxCxy3OM1Y-ex92ZAiFtDXvAaLTci_yxuUaD2SL1bvfqnmoTGjlcfD1mKTuy7nmT4Z9ZaPrHszoMcu0ZV6zKwRX1Pv84eLUZAKSvRnRyuIY8K8QFLYWzy2kNvwsC7t7M-mUec-QiTBJXA4sHxMdHzUHKvkzg0HmovOhIm70hjcuvWKznZ30r_xWpyCrrPxApQoDp76SfAnlXyrl3pmJcb5jZaKT0GUvueIoFgOFHRgywd3JS7REQMKVdo2vzHdtTbCj_es1pOEC9qbhhbWx8f-Hxq1z6dtOidOAM0nQmDqMIDvARDLSbD3jKw2Gj8mxf4X5cW8BFYyS0grngVQeHSHHg2bG17_Wgs5YfDBAOxw4mOHnR8EJsRoTyaefcnL1Hn-JonJkp0XgiC_BLIqhPUOjM-WLo3AAgRBXQ9jGmKo9fDp9pXecsXS62DBJh04EpI-e6x87FE7n2UBNz5h-t34yiTtO_wDLKZqxgwhogG4GkwBUzMtnZ4DShvw37Jeax4izgLKEHZw_uCwh28xpdfuiS9r676-GxQH1PYZHZA9gwREHiJ8JMAc-TUGv535mF6eZ-seNRepx6WV4bi-4aSWqXpOAEyRE_Bo&amp;remoteip=78.174.202.48): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 12
+[12-Oct-2025 12:03:51 UTC] PHP Warning:  Attempt to read property "success" on null in /home/rookieve/public_html/contact.php on line 15
+[12-Oct-2025 12:05:06 UTC] PHP Warning:  Undefined array key "g-recaptcha-response" in /home/rookieve/public_html/contact.php on line 8
+[12-Oct-2025 12:05:06 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 12
+[12-Oct-2025 12:05:06 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcmgucrAAAAAO39Mj17DgqOSXWx-K6_i5sFMHHN&amp;response=&amp;remoteip=78.174.202.48): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 12
+[12-Oct-2025 12:05:06 UTC] PHP Warning:  Attempt to read property "success" on null in /home/rookieve/public_html/contact.php on line 15
+[12-Oct-2025 12:05:15 UTC] PHP Warning:  Undefined array key "g-recaptcha-response" in /home/rookieve/public_html/contact.php on line 8
+[12-Oct-2025 12:05:15 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 12
+[12-Oct-2025 12:05:15 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcmgucrAAAAAO39Mj17DgqOSXWx-K6_i5sFMHHN&amp;response=&amp;remoteip=78.174.202.48): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 12
+[12-Oct-2025 12:05:15 UTC] PHP Warning:  Attempt to read property "success" on null in /home/rookieve/public_html/contact.php on line 15
+[12-Oct-2025 12:05:30 UTC] PHP Warning:  Undefined array key "g-recaptcha-response" in /home/rookieve/public_html/contact.php on line 8
+[12-Oct-2025 12:05:30 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 12
+[12-Oct-2025 12:05:30 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcmgucrAAAAAO39Mj17DgqOSXWx-K6_i5sFMHHN&amp;response=&amp;remoteip=78.174.202.48): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 12
+[12-Oct-2025 12:05:30 UTC] PHP Warning:  Attempt to read property "success" on null in /home/rookieve/public_html/contact.php on line 15
+[12-Oct-2025 12:05:31 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 12
+[12-Oct-2025 12:05:31 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcmgucrAAAAAO39Mj17DgqOSXWx-K6_i5sFMHHN&amp;response=0cAFcWeA75CRkPjpliTTEFGj9XWP4ZvWV8o3fzkJmWlUKtmnEHHOm4kKKFyb__m-qmq1UckVoU-UI07Tt1153JC_a8LZ8TCFsMr7Tqy_RF3FhIcDCy6ek_UL8e8kEWbUeMWUyQAzHmba7_pqao5Gkloi6R3I4xWAI3uDo8M1OqYc4JvM5M_-IWcfWWurcYrDuYjZSpYI0-9DdEbmdlo4EmjCo-29aZc04t_C4Yra84RUlwzb9_Cx-0yHnjQ1DfeoDc2-nOgXufnmFHwlgR7esUe5c-NpYj35sAAwA0iq0SOQVxbGONmz_JXbH-iyCi8Hcj9fEaV30ACa2dxoEfCibhNSkQHjjOJ8kk4E7aF49x-wS5fSEVVbtH4D2Vb-7ozobrknVwFHMiKhh0GkeQQS2Ey-BqzHzUSqt_MGlshYgcKeGQ--hKh-E6jfmif0AIsdx4Om7A2YXn9w8gW8TaL29r6czpJL1HGwCP_f5DHpm-nYpq0xtlkSTMEPF1-8Wp9kMlFgfQuJBLtg_zBINd5IjT3-WlqCfygnhPnVigoyGHLOjlkvO3YUHCQa0rvo2lhGBqqbvtdL_Mm4zKU-k-Spbg7QgGNW4I2prNN-PeReL-AgnhdkRPijk81i5iHuNUi_u-I4mcrhP6uRJjoKhPG2jITAAIxoz0lFvzZFMF8TuM4V2G0CLhReQ5eI5Z-CpVuOM7XJHA0sJDWb3CTFjYghIv_XuPjC4oVbcUrkVWq8bLnen_3no9X6sak0tWF7zjRJ3TSyj6mlSM5I_XyQPsMwSOmLoCFK7soFpJHsfwnZK6hnu_qVZ6vKrJvTGP2IVckv5YZQxteSIT_nBmjmygAhIYvEmTY59UojgnQGeJ_kmdPuWzW4V7RaKMoy-MhGL8JoljERujGwMvfmgzLUqsldqQ0FRC8B1IZH5LKXvxXrofISIftId6iWl6m9AS7GJbys5jmWpGctP354kj2lgqflRZS6zzeT8lW7qZQjO-ZWkYA9C-pJU9Ywc6zyaO8mGuA2tHIzWgu1UoNOXNmF2oOWNrXvx-2vcNFIy-yvAF8rghufL9MhLGdaPvpX_9p-TzM-vcfb_4kvHEseg_itK1xekOir195ihE3uz1xGNLlju3Gs8nX3kCpiViZHuO-hLacU_QWJm0jY3QfWhdZ2djCE2T9zmgN6iT8DTEZOtHCL85whaPzeqhTVXXLn7T321hbcXerXQKHdHWLH5daPXMa_MsaeBgQZLfeAUWc_sxJNp4qdMetQ342yhlcGMDzZ_e-hF0EQOu8FQmv1azHclt09Fid-pkIvS99ky8eglndyErBwf4MfnUhxEP5FMRaTqRyf6RFhI1iEelscEgESNXkLFa5NrScGSDoOc-meJA5vIv8IJyGs2YZ8hsB10hI2_TiXyJwz5dEe9XbkUOz9bWI76wNBB9oJ145W08uVwvb3bU6m8tlWaOvrZqU-iPcikuVeDZQSLPovFa7g3UTm-IDu-jgv6TipGYP3StiaCn954hO4RIgEWecQwhmtTaRW-J0iPHG4Jw5MfMP1BqotVIaRfonidwweAyOtNu4lMePB4nr9cuiemn8vk2ClzCdsyvNUeQAkRwcd28TVZpgQ5-q6O9oKQXTjgNk9BZAg6L4CUTVm6vtuO80o4Ld_LASId2hQGsuNimJbIL1saLEvSTZCBKf8ZK1F4YP0y92WWx5rMLCFlWHlKaD-ETJ8gO71XO6pMwb9qKRlR-7XipeQiYcShscw8FnUj7rOkwUWUsScbUWPm-es7OsW-L3XP2m04WvyqYmjhVBtUGBrdf&amp;remoteip=195.88.86.150): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 12
+[12-Oct-2025 12:05:31 UTC] PHP Warning:  Attempt to read property "success" on null in /home/rookieve/public_html/contact.php on line 15
+[12-Oct-2025 12:05:58 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 12
+[12-Oct-2025 12:05:58 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LcmgucrAAAAAO39Mj17DgqOSXWx-K6_i5sFMHHN&amp;response=0cAFcWeA637jfLELvXbXSGVl3MYagXPHgg0HB1L7of3jibsLBtsIFAGfwUIKdb52rbmwAKwIZIJo2mx9pd8UDEksuJ-8rY8R0rurOv9a_UFn5c1yuJ4b1SaaFqCClrak9qpmrJa9LXiwBx12Y7P-aDQUWgLqrILZdVIcUYRrnTqGoEXgtzEQHQlE_z12jbsL7_nT4yBCSXTaOzOsGe82lldD7im1hItrs_rOdBX7o4OxiCNAVBpnT4tb2iB2UZXCoc9gZ5-HeqGyic41KjatnesN8B9p1uA0OKSZ43mLdn_qRtcJmFfr5y-Betgv6kX2gb-POk-D4nlkxrHmQ7XpQFQmK7HEwfOBo5iZNeWWYYweBtAZydkbFHNNoxWYjSmPHGS5ejxuYxYfOaLuAbHK69KYsVzVOZqN0bSnSUijALQUmzIzeNGS7u_HWZTCuOBOPvymygh2DZxBr3FdR6eBTjGmV2phHfYPoD4nX-b-dc1cxdRawDkqNr0_vq7y_UL-y1RVJ7RbOLzk9z868J3W-35ZngY1UjUiqFhzFy00ws5rczy-Hn-SZYRG7kSNSNv2KrO5IrVXm98135tqrEfmZlWpzj-_TLXaCufS0MQqz7YTxQ5X3eXflXWLPOjBfMxmIp--dBbxxxIFW4ygfRsyuaA8EkRGblNPs4pi-mqVZgTGmh1npwjfT_ed0wJLL3jZ5X6tYcmxz4BKpc2E3rkKTEbvMaVNjQ-0PdUwI3FF6uzoOqEvw9ROSXo0EYl2KeuKdh9PqRIkVUGmS0xQ8lVFe9RV7ZPphHRtbwURKxQhHPrdRoZ367dloOUIFiP6d2lFg_TupDiSDgw2MuxEAy65a85a48-ooM7Kg89w7X2F3TaiRxP2n00pMDI0b9J3U1EmbfCYGavH-lboWE6ZRM1dNRRkwCZ6PIeLAqjJeaAQPgdIlpSmAS8o3csmoNbGD3frC2RxXpeCy0n-qb8iQ2RsvNaj3A7UL4qmFv_zDWHfrHRKITvpvxslYuJRxHrzY_g-IQCJMyVk0GDrhArWK-BDZZwYc595mZQApkNHFhuA-Hrt7i5JwMEp4WRxjRcIDlj4lK_yeQ67VL_0iqUkHxJJYWjioJfj7Mg5zCtkHip6ArLPI2wStlCWnwZ9rCTVfVuqVLi-3z66vlGtVqMVABECMrH43FxBuXDxVYvs_nikthbt7A-7PIBPazE5JrGK9tx361JnpYzRPbmvEERJOU4nEYGl0yaxZeXbkyQoJmkzXW-5yU2x2Sda_XqkNmNfD-rxHkLLOGUtg5cyihTn9rskTEnS6x0dAto5NsxnNbiHulaOrByIteQo7jAA5GNtw9yHMhXcJvTHbP8fbhD0FGsZRvJdy01gPH5XmNOQl4N7ngt0-cvSK0qonDu0m2G6LwX9MyHp3jayn5PIJ_R68yTGx8vx_7m2gvYxIKttGIuTxbUy77raHuq6jiQk9wXveT5IDAP81YCAIIkPsQCSfF2eEcMLA_Fshc-rYzddiaMBiz_Mw4K8999599oxKmj5xNZlk8Bim7SsZc2xTSVjjafj-YYf6oVcyXTGH1uM9wN3i7L9QQ-9xkhpYictAN3d7VXfn6oF1hSUj_qkoBn5Rry8GhN-lk-vdiKVJ19rCqkDorTEybQnxSQfDastLJav3-r8aB486IEjcEiFmAIfuOpIc0Aifbxd-f6-Dl0CSRtKlik0ybVfAvvbu1Pn9K5-haomI9Ttm877DAxKgDmVYoCdcx6FJo1FO2-QihuIVZMNMFhyqTribWG4YoUJ_vg4Ed5-7u8nEm_OoBpS_ord4rHyz8Oq68T2COVStaZw&amp;remoteip=195.88.86.150): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 12
+[12-Oct-2025 12:05:58 UTC] PHP Warning:  Attempt to read property "success" on null in /home/rookieve/public_html/contact.php on line 15
+[12-Oct-2025 12:11:23 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:11:23 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:11:23 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/contact.php on line 33
+[12-Oct-2025 12:11:23 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/rookieve/public_html/contact.php:29) in /home/rookieve/public_html/contact.php on line 59
+[12-Oct-2025 12:11:34 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:11:34 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:11:34 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/contact.php on line 33
+[12-Oct-2025 12:11:34 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/rookieve/public_html/contact.php:29) in /home/rookieve/public_html/contact.php on line 59
+[12-Oct-2025 12:12:01 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:12:01 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:12:01 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/contact.php on line 33
+[12-Oct-2025 12:12:01 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/rookieve/public_html/contact.php:29) in /home/rookieve/public_html/contact.php on line 59
+[12-Oct-2025 12:12:39 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:12:39 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:12:39 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/contact.php on line 33
+[12-Oct-2025 12:12:39 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/rookieve/public_html/contact.php:29) in /home/rookieve/public_html/contact.php on line 59
+[12-Oct-2025 12:15:59 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:15:59 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:15:59 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/contact.php on line 33
+[12-Oct-2025 12:15:59 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/rookieve/public_html/contact.php:29) in /home/rookieve/public_html/contact.php on line 59
+[12-Oct-2025 12:18:44 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:18:44 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:18:44 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/contact.php on line 33
+[12-Oct-2025 12:18:44 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/rookieve/public_html/contact.php:29) in /home/rookieve/public_html/contact.php on line 59
+[12-Oct-2025 12:19:14 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:19:14 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:19:14 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/contact.php on line 33
+[12-Oct-2025 12:19:14 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/rookieve/public_html/contact.php:29) in /home/rookieve/public_html/contact.php on line 59
+[12-Oct-2025 12:22:05 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:22:05 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:22:05 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/contact.php on line 33
+[12-Oct-2025 12:22:05 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/rookieve/public_html/contact.php:29) in /home/rookieve/public_html/contact.php on line 59
+[12-Oct-2025 12:24:46 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rookieve/public_html/contact.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/contact.php on line 105
+[12-Oct-2025 12:24:51 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rookieve/public_html/contact.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/contact.php on line 105
+[12-Oct-2025 12:24:52 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rookieve/public_html/contact.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/contact.php on line 105
+[12-Oct-2025 12:24:52 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rookieve/public_html/contact.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/contact.php on line 105
+[12-Oct-2025 12:27:28 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rookieve/public_html/contact.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/contact.php on line 105
+[12-Oct-2025 12:27:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rookieve/public_html/contact.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/contact.php on line 105
+[12-Oct-2025 12:27:38 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "BASE_URL" in /home/rookieve/public_html/contact.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/rookieve/public_html/contact.php on line 105
+[12-Oct-2025 12:30:36 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:30:36 UTC] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify): Failed to open stream: no suitable wrapper could be found in /home/rookieve/public_html/contact.php on line 29
+[12-Oct-2025 12:30:36 UTC] PHP Warning:  Trying to access array offset on null in /home/rookieve/public_html/contact.php on line 33
+[12-Oct-2025 12:30:36 UTC] PHP Warning:  http_response_code(): Cannot set response code - headers already sent (output started at /home/rookieve/public_html/contact.php:29) in /home/rookieve/public_html/contact.php on line 59
+[12-Oct-2025 15:14:02 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 312
+[13-Oct-2025 09:33:21 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 312
+[13-Oct-2025 13:00:26 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 312
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 24
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/courseDetails.php:24) in /home/rookieve/public_html/courseDetails.php on line 25
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 51
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 239
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 241
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 255
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 319
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 325
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 330
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 339
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 343
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 346
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 355
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 362
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 369
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 382
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 548
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 557
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 567
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 568
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 571
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 576
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 580
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 584
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 588
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 798
+[13-Oct-2025 20:26:42 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 825
+[13-Oct-2025 20:39:27 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 312
+[13-Oct-2025 20:39:27 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 315
+[14-Oct-2025 10:23:40 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 312
+[14-Oct-2025 10:23:40 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 315
+[14-Oct-2025 10:23:51 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 312
+[14-Oct-2025 10:23:51 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 315
+[14-Oct-2025 10:24:30 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 312
+[14-Oct-2025 10:24:30 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 315
+[14-Oct-2025 10:24:38 UTC] PHP Warning:  Undefined variable $prev_url in /home/rookieve/public_html/moduleDetails.php on line 312
+[14-Oct-2025 10:24:38 UTC] PHP Warning:  Undefined variable $next_url in /home/rookieve/public_html/moduleDetails.php on line 315
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 24
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/courseDetails.php:24) in /home/rookieve/public_html/courseDetails.php on line 25
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 51
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 239
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 241
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 255
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 319
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 325
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 330
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 339
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 343
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 346
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 355
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 362
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 369
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 382
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 548
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 557
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 567
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 568
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 571
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 576
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 580
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 584
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 588
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 798
+[14-Oct-2025 20:10:18 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 825
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 24
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/courseDetails.php:24) in /home/rookieve/public_html/courseDetails.php on line 25
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 51
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 239
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 241
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 255
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 319
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 325
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 330
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 339
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 343
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 346
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 355
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 362
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 369
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 382
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 548
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 557
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 567
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 568
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 571
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 576
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 580
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 584
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 588
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 798
+[14-Oct-2025 20:16:59 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 825
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 24
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/courseDetails.php:24) in /home/rookieve/public_html/courseDetails.php on line 25
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 51
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 239
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 241
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 255
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 319
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 325
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 330
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 339
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 343
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 346
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 355
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 362
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 369
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 382
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 548
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 557
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 567
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 568
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 571
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 576
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 580
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 584
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 588
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 798
+[14-Oct-2025 20:25:11 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 825
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 24
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/courseDetails.php:24) in /home/rookieve/public_html/courseDetails.php on line 25
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 51
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 239
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 241
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 255
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 319
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 325
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 330
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 339
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 343
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 346
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 355
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 362
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 369
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 382
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 548
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 557
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 567
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 568
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 571
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 576
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 580
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 584
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 588
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 798
+[14-Oct-2025 22:29:43 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 825
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 24
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/courseDetails.php:24) in /home/rookieve/public_html/courseDetails.php on line 25
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 51
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 239
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 241
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 255
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 319
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 325
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 330
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 339
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 343
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 346
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 355
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 362
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 369
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 382
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 548
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 557
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 567
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 568
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 571
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 576
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 580
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 584
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 588
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 798
+[15-Oct-2025 04:16:13 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 825
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 24
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rookieve/public_html/courseDetails.php:24) in /home/rookieve/public_html/courseDetails.php on line 25
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 51
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 239
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 241
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 255
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 319
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 325
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 330
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 339
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 343
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 346
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 355
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 362
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 369
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 382
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 548
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 557
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 567
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 568
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 571
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 576
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 580
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 584
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 588
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 798
+[15-Oct-2025 13:34:47 UTC] PHP Warning:  Trying to access array offset on false in /home/rookieve/public_html/courseDetails.php on line 825

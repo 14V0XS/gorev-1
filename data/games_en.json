@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "updated_at": "2025-10-08T14:00:00Z",
+  "items": [
+    {
+      "slug": "wordGuesser",
+      "title": "Letter Guess",
+      "desc": "Guess FRC terms letter by letter and score points.",
+      "type": "kelime",
+      "minutes": "3-5",
+      "players": "Solo",
+      "icon": "letter-text"
+    },
+    {
+      "slug": "multipleChoice",
+      "title": "Term Quiz",
+      "desc": "Test your knowledge with multiple choice questions and score fast.",
+      "type": "quiz",
+      "minutes": "4-6",
+      "players": "Solo",
+      "icon": "help-circle"
+    },
+    {
+      "slug": "flashcards",
+      "title": "Flashcards",
+      "desc": "Make learning easier with memory cards.",
+      "type": "hafiza",
+      "minutes": "5-10",
+      "players": "Solo",
+      "icon": "brain"
+    },
+    {
+      "slug": "guessGame",
+      "title": "Team Number Guess",
+      "desc": "Guess the correct team number from FRC team names.",
+      "type": "tahmin",
+      "minutes": "4-6",
+      "players": "Solo / Duo",
+      "icon": "hash"
+    },
+    {
+      "slug": "taboo",
+      "title": "FRC Taboo",
+      "desc": "Learn while having fun playing taboo with FRC terms.",
+      "type": "tahmin",
+      "minutes": "1",
+      "players": "At least two",
+      "icon": "message-square-more"
+    },
+    {
+      "slug": "flipGame",
+      "title": "Memory Cards",
+      "desc": "Flip the cards and match the same terms.",
+      "type": "hafiza",
+      "minutes": "3-5",
+      "players": "Solo / Duo",
+      "icon": "gallery-vertical-end"
+    }
+  ]
+}

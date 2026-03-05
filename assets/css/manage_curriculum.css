@@ -1,0 +1,93 @@
+/* Genel Stil ve Değişkenler */
+:root {
+    --primary-color: #E5AE32; --primary-hover: #c4952b; --background-color: #f7f7f7;
+    --card-background: #ffffff; --text-dark: #0f172a; --text-light: #64748b; --border-color: #e2e8f0;
+}
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background-color: var(--background-color); margin: 0; color: var(--text-dark); }
+
+/* Kart Stilleri */
+.card {
+    background-color: var(--card-background); border: 1px solid var(--border-color);
+    border-radius: 0.75rem; padding: 1.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.05); margin-bottom: 1.5rem;
+}
+.empty-state-card {
+    border: 2px dashed var(--border-color); text-align: center; padding: 3rem;
+}
+.module-card {
+    background-color: var(--card-background); border: 1px solid var(--border-color);
+    border-radius: 0.75rem; margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.05);
+}
+.module-header { display: flex; align-items: center; gap: 0.75rem; padding: 1rem 1.5rem; border-bottom: 1px solid var(--border-color); }
+.module-header h3 { font-size: 1.125rem; font-weight: 600; flex-grow: 1; }
+.module-actions { display: flex; align-items: center; gap: 0.5rem; }
+.module-actions button { background:none; border:none; cursor:pointer; color: var(--text-light); transition: color 0.2s; padding: 0.25rem; }
+.module-actions button:hover { color: var(--text-dark); }
+.module-content { padding: 1.5rem; }
+
+/* İçerik Stilleri */
+.content-item { background-color: #f8f9fa; border: 1px solid var(--border-color); border-radius: 0.5rem; padding: 1rem; margin-bottom: 1rem; }
+.content-item-header { display: flex; align-items: center; justify-content: space-between; font-weight: 500; color: var(--text-light); }
+.content-item-body { margin-top: 1rem; }
+.form-input { width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--border-color); border-radius: 0.5rem; }
+
+/* Zengin Metin Editörü */
+.editor-toolbar { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: -1px; background-color: #f1f5f9; padding: 0.5rem; border-radius: 0.5rem 0.5rem 0 0; border: 1px solid var(--border-color); }
+.editor-button { background: none; border: 1px solid transparent; padding: 0.25rem 0.5rem; cursor: pointer; border-radius: 0.25rem; }
+.editor-button:hover { background-color: #e2e8f0; }
+.editable-content {
+    min-height: 150px; border: 1px solid var(--border-color); padding: 1rem;
+    border-radius: 0 0 0.5rem 0.5rem; outline-color: var(--primary-color);
+}
+.editable-content a { color: var(--primary-color); text-decoration: underline; }
+.editable-content ul, .editable-content ol { padding-left: 1.5rem; }
+.editable-content ul { list-style: disc; }
+.editable-content ol { list-style: decimal; }
+
+/* Sürükle-Bırak Alanı (Yatay Tasarım) */
+.horizontal-upload-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.upload-preview-thumb {
+    width: 120px;
+    height: 67.5px;
+    flex-shrink: 0;
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-light);
+    overflow: hidden;
+}
+.upload-preview-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.upload-drop-area {
+    flex-grow: 1;
+    border: 2px dashed var(--border-color);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    color: var(--text-light);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.upload-drop-area.drag-over {
+    border-color: var(--primary-color);
+    background-color: rgba(229, 174, 50, 0.05);
+}
+.upload-info .file-name { font-weight: 600; }
+.upload-info .file-size { font-size: 0.875rem; }
+.hidden-input { display: none; }
+
+/* Modal ve Butonlar */
+.modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7); display: flex; justify-content: center; align-items: center; z-index: 2000; opacity: 0; visibility: hidden; transition: opacity 0.3s; }
+.modal-overlay.show { opacity: 1; visibility: visible; }
+.modal-content { background: white; border-radius: 0.75rem; width: 90%; max-width: 500px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); transform: scale(0.95); transition: transform 0.3s; }
+.modal-overlay.show .modal-content { transform: scale(1); }
+.btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.7rem 1.5rem; background-color: var(--primary-color); color: white; border: none; border-radius: 0.5rem; cursor: pointer; font-size: 1rem; font-weight: 600; text-decoration: none; }
+.btn-secondary { background-color: #475569; }
+.btn-sm { padding: 0.4rem 1rem; font-size: 0.875rem; }

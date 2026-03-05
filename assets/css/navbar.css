@@ -1,0 +1,28 @@
+/* Özel Sakana fontunu tanımlama */
+@font-face {
+    font-family: "Sakana";
+    /* Font dosyasının doğru yolda olduğundan emin ol! */
+    src: url("../fonts/Sakana.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Logonun fontunu, rengini ve boyutunu ayarlama */
+.rookieverse {
+    font-family: "Sakana", system-ui, sans-serif !important;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #E5AE32;
+    line-height: 1;
+    display: inline-block;
+}
+
+/* Tailwind CSS reset kodları ile uyumluluk (Navbar'ın bozulmaması için) */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}

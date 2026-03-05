@@ -1,0 +1,51 @@
+  /* Varsayılan: desktop menü açık, hamburger gizli */
+
+    .nav-desktop { display: flex; }
+
+    .nav-mobile-btn { display: none; }
+
+
+
+    /* 1076px ve altı: desktop menü gizli, hamburger görünür */
+
+    @media (max-width: 1076px) {
+
+        .nav-desktop { display: none; }
+
+        .nav-mobile-btn { display: inline-flex; }
+
+    }
+
+
+
+    /* off-canvas için küçük yardımcılar */
+
+    .drawer-hidden { transform: translateX(100%); }
+
+    .drawer-shown  { transform: translateX(0%); }
+
+    .fade-0        { opacity: 0; }
+
+    .fade-100      { opacity: 1; }
+
+    /* Language switcher */
+    .lang-switcher { position: relative; }
+    .lang-switcher-btn {
+        display: inline-flex; align-items: center; gap: 4px;
+        padding: 4px 10px; border-radius: 6px; font-size: 13px; font-weight: 600;
+        border: 1px solid #e5e7eb; background: #fff; color: #374151; cursor: pointer;
+        transition: border-color .2s;
+    }
+    .lang-switcher-btn:hover { border-color: #E5AE32; }
+    .lang-dropdown {
+        display: none; position: absolute; top: 100%; right: 0; margin-top: 4px;
+        background: #fff; border: 1px solid #e5e7eb; border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,.1); z-index: 100; min-width: 120px; overflow: hidden;
+    }
+    .lang-dropdown.show { display: block; }
+    .lang-dropdown a {
+        display: flex; align-items: center; gap: 8px; padding: 8px 14px;
+        font-size: 13px; color: #374151; text-decoration: none; transition: background .15s;
+    }
+    .lang-dropdown a:hover { background: #f9fafb; }
+    .lang-dropdown a.active { background: #fffbeb; color: #E5AE32; font-weight: 600; }

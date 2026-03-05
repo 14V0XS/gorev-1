@@ -1,0 +1,155 @@
+/* Genel Stil ve Değişkenler */
+:root {
+    --primary-color: #2563eb; /* Örnek Mavi Tonu */
+    --primary-hover: #1d4ed8;
+    --background-color: #f7f7f7;
+    --card-background: #ffffff;
+    --text-dark: #0f172a;
+    --text-light: #64748b;
+    --border-color: #e2e8f0;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    color: var(--text-dark);
+}
+.panel-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sol Menü (Sidebar) */
+.sidebar {
+    width: 280px;
+    background-color: var(--card-background); /* Beyaz Arka Plan */
+    border-right: 1px solid var(--border-color);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.sidebar-header {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+.sidebar-header .rookieverse {
+    font-family: "Sakana", sans-serif !important;
+    font-size: 1.5rem;
+    color: #E5AE32; /* Sitenin ana rengi */
+    font-weight: bold;
+}
+.sidebar-search {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.search-input {
+    width: 100%;
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    color: var(--text-dark);
+    padding: 0.6rem 2.5rem 0.6rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+.sidebar-search .search-icon {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-light);
+}
+.sidebar-nav { flex-grow: 1; overflow-y: auto; }
+.menu-item .menu-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--text-dark);
+    user-select: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+.menu-item .menu-title:hover { background-color: #f1f5f9; }
+.menu-title .menu-icon { margin-right: 0.75rem; color: var(--text-light); }
+.submenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    padding-left: 2.75rem; /* Icon hizası için */
+}
+.submenu a {
+    display: block;
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: var(--text-light);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.submenu a:hover, .submenu a.active {
+    color: var(--primary-color);
+    background-color: rgba(37, 99, 235, 0.1);
+}
+.menu-item.open > .menu-title { color: var(--primary-color); }
+.menu-item.open .submenu { max-height: 500px; margin-top: 0.5rem; }
+.menu-item.open .menu-arrow { transform: rotate(90deg); color: var(--primary-color); }
+
+/* Ana İçerik Alanı */
+.main-content { flex-grow: 1; display: flex; flex-direction: column; }
+.top-bar {
+    display: flex;
+    justify-content: flex-end; /* İçerik sağa yaslı */
+    align-items: center;
+    padding: 0 2.5rem;
+    background-color: var(--card-background);
+    border-bottom: 1px solid var(--border-color);
+    height: 70px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+.top-bar-actions { display: flex; align-items: center; gap: 1rem; }
+.top-bar-item { position: relative; }
+.top-bar-button { background: none; border: none; cursor: pointer; padding: 0.5rem; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; }
+.top-bar-button:hover { background-color: #f1f5f9; }
+.notification-badge {
+    position: absolute; top: 2px; right: 2px;
+    background-color: #dc3545; color: white;
+    font-size: 10px; font-weight: bold;
+    width: 16px; height: 16px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    border: 2px solid var(--card-background);
+}
+.dropdown-menu {
+    position: absolute; top: 140%; right: 0;
+    background-color: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    width: 220px; padding: 0.5rem; z-index: 100;
+    opacity: 0; visibility: hidden; transform: translateY(-10px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+}
+.dropdown-menu.show { opacity: 1; visibility: visible; transform: translateY(0); }
+.dropdown-menu a, .dropdown-menu button {
+    display: flex; align-items: center; gap: 0.75rem; width: 100%;
+    padding: 0.75rem; text-align: left; text-decoration: none;
+    color: var(--text-dark); border-radius: 0.25rem;
+    background: none; border: none; cursor: pointer;
+}
+.dropdown-menu a:hover, .dropdown-menu button:hover { background-color: #f1f5f9; }
+.dropdown-divider { height: 1px; background-color: var(--border-color); margin: 0.5rem 0; }
+
+.content-area { padding: 2.5rem; }
+.page-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
+h1 { font-size: 2rem; font-weight: 700; margin: 0; }
+.card { background-color: var(--card-background); border-radius: 0.75rem; border: 1px solid var(--border-color); padding: 1.5rem; box-shadow: 0 1px 3px 0 rgba(0,0,0,0.05); }
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; }
+.stat-card { text-align: center; }
+.stat-card .value { font-size: 2.5rem; font-weight: 700; color: var(--primary-color); }
+.stat-card .label { font-size: 1rem; color: var(--text-light); }
+.btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background-color: var(--primary-color); color: white; border: none; border-radius: 0.5rem; cursor: pointer; font-size: 1rem; font-weight: 600; text-decoration: none; transition: background-color 0.2s; }
+.btn:hover { background-color: var(--primary-hover); }
