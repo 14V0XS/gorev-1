@@ -6,3 +6,7 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+rookieverse.db
+api.exe
+node_modules/
+.env

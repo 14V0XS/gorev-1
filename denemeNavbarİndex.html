@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+    <link rel="icon" type="image/x-icon" href="assets/images/rokiverse_icon.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDSVL8LRCY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-EDSVL8LRCY');
+    </script>
+
+  <link rel="stylesheet" href="/assets/css/navbar.css">
+  <link rel="stylesheet" href="/assets/css/index.css">
+  
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: { 'custom-yellow': '#E5AE32' } } }
+    }
+  </script>
+
+  <style>
+      /* Konteyner sabit çerçeve */
+      .logo-slider-container { position: relative; overflow: hidden; }
+
+      /* Track artık kaymaz—sahnede üst üste durur */
+      .logo-slider-track {
+          position: relative;
+          width: 100%;
+          height: 28vh;            /* logo yüksekliğine göre ayarla */
+          overflow: hidden;         /* kaydırma kapalı */
+      }
+
+      @media only screen and (max-width: 765px) {
+          .logo-slider-container {
+              padding: 0px;
+          }
+
+          .logo-slide {
+              padding: 0px;
+          }
+      }
+
+              /* Her slide sahnede aynı noktada */
+      .logo-slide {
+          position: absolute;
+          inset: 0;                 /* top:0 right:0 bottom:0 left:0 */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          opacity: 0;               /* varsayılan görünmez */
+          pointer-events: none;
+          transition: opacity 300ms ease;
+      }
+
+      /* Sahnede görünen tek logo */
+      .logo-slide.is-active {
+          opacity: 1;
+          pointer-events: auto;
+      }
+
+      /* Logonun ölçüsü */
+      .logo-slide img {
+          max-height: 100%;
+          max-width: 80%;
+          object-fit: contain;
+      }
+
+      /* Ok butonları */
+      .slider-arrow {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          background: white;
+          border: 1px solid #e5e7eb;
+          border-radius: 9999px;
+          padding: .5rem;
+          box-shadow: 0 2px 8px rgba(0,0,0,.06);
+      }
+      .slider-arrow.left  { left: 8px; }
+      .slider-arrow.right { right: 8px; }
+      .slider-arrow:hover { background: #f9fafb; }
+
+      .hero-ss-track {
+          scroll-snap-stop: always; /* slide ortasında mutlaka durur */
+      }
+
+      .hero-ss-container {
+          position: relative;
+          border-radius: 1rem;
+          overflow: hidden;
+      }
+      .hero-ss-slide img {
+          width: 100%;
+          max-height: 400px;        /* sabit yükseklik buradan */
+          object-fit: cover;    /* görüntü bozulmadan kırpılır */
+          display: block;
+      }
+
+      .hero-ss-arrow {
+          opacity: 0;
+          transition: opacity 0.3s ease;
+      }
+
+      .hero-ss-container:hover .hero-ss-arrow {
+          opacity: 1;
+      }
+
+
+      .hero-ss-track {
+          display: flex;
+          overflow-x: auto;
+          scroll-snap-type: x mandatory;
+          scroll-behavior: smooth;
+          -webkit-overflow-scrolling: touch;
+          scrollbar-width: none; /* Firefox */
+      }
+      .hero-ss-track::-webkit-scrollbar { display: none; } /* WebKit */
+
+      .hero-ss-slide {
+          flex: 0 0 100%;
+          scroll-snap-align: center;
+          position: relative;
+      }
+      .hero-ss-slide img {
+          display: block;
+          width: 100%;
+          height: clamp(300px, 45vw, 480px); /* responsive yükseklik */
+          object-fit: cover;
+      }
+
+      /* Oklar */
+      .hero-ss-arrow {
+          position: absolute; top: 50%; transform: translateY(-50%);
+          background: rgba(17,24,39,.6); color:#fff;
+          width:44px; height:44px; border-radius:9999px;
+          display:grid; place-items:center; border:none; cursor:pointer;
+      }
+      .hero-ss-arrow.left { left: 10px; } .hero-ss-arrow.right { right: 10px; }
+      .hero-ss-arrow:hover { background: rgba(17,24,39,.8); }
+
+      /* Noktalar */
+      .hero-ss-dots {
+          position: absolute; left:50%; transform:translateX(-50%);
+          bottom: 10px; display:flex; gap:8px;
+      }
+      .hero-ss-dot {
+          width:10px; height:10px; border-radius:9999px;
+          background: rgba(255,255,255,.6); border:1px solid rgba(0,0,0,.1);
+          cursor:pointer;
+      }
+      .hero-ss-dot.active { background:#E5AE32; }
+
+
+  </style>
+
+</head>
+<body class="bg-white">
+    <link rel="stylesheet" href="navbar.css">
+
+ <nav class="bg-white shadow-sm border-b sticky top-0 z-50">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="flex h-16 items-center justify-between">
+
+            <a class="flex items-center space-x-2" href="/">
+
+                <span class="rookieverse">ROOKIEVERSE</span>
+
+            </a>
+
+            <div class="nav-desktop items-center space-x-8">
+
+                <a class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-[#E5AE32] hover:bg-gray-50" href="/courses.html">Kurslar</a>
+
+                <a class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-[#E5AE32] hover:bg-gray-50" href="/teams.html">Takımlar</a>
+
+                <a class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-[#E5AE32] hover:bg-gray-50" href="/games.html">Oyunlar</a>
+
+                <a class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-[#E5AE32] hover:bg-gray-50" href="/season.html">2026 Sezonu</a>
+
+                <a class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-[#E5AE32] hover:bg-gray-50" href="/frc-terms.html">FRC Sözlük</a>
+
+                <a class="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-[#E5AE32] hover:bg-gray-50" href="/contact.html">İletişim</a>
+
+
+                <div class="lang-switcher">
+
+                    <button class="lang-switcher-btn" id="lang-toggle" type="button">
+                        TR <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <path d="M3 5l3 3 3-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+
+                    <div class="lang-dropdown" id="lang-dropdown">
+
+                        <a href="/set_lang.html?lang=tr" class="">Türkçe</a>
+
+                        <a href="/set_lang.html?lang=en" class="">English</a>
+
+                    </div>
+
+                </div>
+
+
+                <a href="/team-login.html"
+
+                   class="inline-flex items-center justify-center gap-2 h-9 bg-[#E5AE32] hover:bg-[#E5AE32]/90 text-white font-semibold px-6 py-2 rounded-lg">
+
+                        <i data-lucide="log-in" class="w-4 h-4"></i>
+
+                </a>
+
+            </div>
+
+
+            <button id="mobile-menu-button"
+
+                    class="nav-mobile-btn inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none"
+
+                    aria-controls="mobile-drawer" aria-expanded="false" type="button">
+
+                <span class="sr-only"></span>
+
+                <i data-lucide="menu" class="w-6 h-6" id="icon-open"></i>
+
+                <i data-lucide="x" class="w-6 h-6 hidden" id="icon-close"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div id="mobile-overlay"
+
+         class="fixed inset-0 bg-black/40 backdrop-blur-[1px] z-[60] hidden fade-0 transition-opacity duration-300"></div>
+
+
+    <aside id="mobile-drawer"
+
+           class="fixed inset-y-0 right-0 z-[70] w-[90vw] max-w-sm bg-white border-l shadow-xl
+
+                 drawer-hidden transition-transform duration-300 will-change-transform"
+
+           role="dialog" aria-modal="true" aria-labelledby="mobile-drawer-title">
+
+        <div class="h-16 px-4 flex items-center justify-between border-b">
+
+            <div id="mobile-drawer-title" class="font-semibold"></div>
+
+            <button id="mobile-close" class="p-2 rounded-md hover:bg-gray-100" type="button">
+
+                <i data-lucide="x" class="w-6 h-6"></i>
+
+            </button>
+
+        </div>
+
+        <nav class="px-4 py-3 space-y-1 overflow-y-auto h-[calc(100vh-4rem)]">
+
+            <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#E5AE32] hover:bg-gray-50" href="/courses.html">Kurslar</a>
+
+            <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#E5AE32] hover:bg-gray-50" href="/teams.html">Takımlar</a>
+
+            <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#E5AE32] hover:bg-gray-50" href="/games.html">Oyunlar</a>
+
+            <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#E5AE32] hover:bg-gray-50" href="/season.html">2026 Sezonu</a>
+
+            <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#E5AE32] hover:bg-gray-50" href="/frc-terms.html">FIRST Sözlük</a>
+
+            <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[#E5AE32] hover:bg-gray-50" href="/contact.html">İletişim</a>
+
+
+            <div class="flex gap-2 px-3 py-2">
+
+                <a href="/set_lang.html?lang=tr"
+
+                   class="flex-1 text-center py-2 rounded-md text-sm font-semibold border border-gray-300 text-gray-700">🇹🇷 Türkçe</a>
+
+                <a href="/set_lang.html?lang=en"
+
+                   class="flex-1 text-center py-2 rounded-md text-sm font-semibold border border-gray-300 text-gray-700">🇬🇧 English</a>
+
+            </div>
+
+
+            <a href="/team-login.html"
+
+               class="mt-2 inline-flex w-full items-center justify-center gap-2 h-10 bg-[#E5AE32] hover:bg-[#E5AE32]/90 text-white font-semibold px-4 rounded-lg">
+
+                    <i data-lucide="log-in" class="w-4 h-4"></i>
+
+            </a>
+
+        </nav>
+
+    </aside>
+
+</nav> 
+  
+  <div class="min-h-screen">
+    <section class="bg-gradient-to-br from-custom-yellow/10 via-white to-custom-yellow/5 py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div class="space-y-8">
+            <div class="space-y-4">
+              <span class="inline-block bg-custom-yellow text-white px-4 py-1 rounded-md text-sm font-semibold">Rookie'lere özel video, doküman ve oyunlar.</span>
+              <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">FIRST Dünyasına<span class="text-custom-yellow block">Hoş Geldiniz</span></h1> <p class="text-xl text-bold-gray-1000 max-w-lg">FIRST takımlarının tecrübesiyle hazırlanan; sıfırdan zirveye giden yolda Rookie üyeler ve takımların ihtiyaç duyduğu tüm kaynaklar artık tek çatı altında</p>              <p class="text-xl text-gray-600 max-w-lg">Rookie üyeler, ihtiyacınız olan kaynaklara zahmetsizce ulaşarak robotik serüveninize güçlü bir başlangıç yapın.</p>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="/courses.html" class="inline-flex items-center justify-center bg-custom-yellow hover:bg-opacity-90 text-white px-8 py-3 text-lg font-semibold rounded-lg"><i data-lucide="play" class="mr-2 w-5 h-5"></i>Kurslara Başla</a>
+              <a href="/games.html" class="inline-flex items-center justify-center border-2 border-custom-yellow text-custom-yellow hover:bg-custom-yellow hover:text-white px-8 py-3 text-lg font-semibold rounded-lg"><i data-lucide="gamepad-2" class="mr-2 w-5 h-5"></i>Oyunları Keşfet</a>
+            </div>
+          </div>
+            <div class="hero-ss-container">
+                <div class="hero-ss-track" id="heroSS">
+                    <div class="hero-ss-slide"><img src="assets/images/frcexampleimage2.jpg" alt=""></div>
+                    <div class="hero-ss-slide"><img src="assets/images/frcexapmle.png" alt=""></div>
+                    <div class="hero-ss-slide"><img src="assets/images/frcexampleimage3.jpg" alt=""></div>
+                    <div class="hero-ss-slide"><img src="assets/images/frcexample7.jpg" alt=""></div>
+                    <div class="hero-ss-slide"><img src="assets/images/frcexampleimage4.jpg" alt=""></div>
+                    <div class="hero-ss-slide"><img src="assets/images/frcexampleimage5.webp" alt=""></div>
+                    <div class="hero-ss-slide"><img src="assets/images/frcexampleimage6.jpeg" alt=""></div>
+                </div>
+
+                <button class="hero-ss-arrow left" id="prevSS"><i data-lucide="chevron-left"></i></button>
+                <button class="hero-ss-arrow right" id="nextSS"><i data-lucide="chevron-right"></i></button>
+                <div class="hero-ss-dots" id="dotsSS"></div>
+            </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center mb-16"><h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Neden RookieVerse?</h2><p class="text-xl text-gray-600 max-w-3xl mx-auto">Türk FIRST takımlarının deneyimli öğrencilerin hazırladığı, interaktif içeriklerden ve gerçek dünya deneyimlerinden faydalanın.</p></div><div class="grid grid-cols-1 md:grid-cols-3 gap-8 "><div class="border-2 hover:border-custom-yellow/50 rounded-lg p-6"><div class="text-center pb-4"><div class="mx-auto w-16 h-16 bg-custom-yellow/10 rounded-full flex items-center justify-center mb-4"><i data-lucide="book-open" class="text-custom-yellow w-8 h-8"></i></div><h3 class="text-xl font-bold">Kapsamlı kurslar</h3></div><p class="text-center text-base text-gray-600">FIRST programlarının (FRC, FTC, FLL) tüm alanlarını kapsayan detaylı kurs içerikleri. Başlangıçtan ileri seviyeye kadar öğrenin</p></div><div class="border-2 hover:border-custom-yellow/50 rounded-lg p-6"><div class="text-center pb-4"><div class="mx-auto w-16 h-16 bg-custom-yellow/10 rounded-full flex items-center justify-center mb-4"><i data-lucide="gamepad-2" class="text-custom-yellow w-8 h-8"></i></div><h3 class="text-xl font-bold">İnteraktif Oyunlar</h3></div><p class="text-center text-base text-gray-600">Eğlenceli oyunlar ile öğrendiklerinizi pekiştirin. Öğrenme sürecini keyifli hale getirin.</p></div><div class="border-2 hover:border-custom-yellow/50 rounded-lg p-6"><div class="text-center pb-4"><div class="mx-auto w-16 h-16 bg-custom-yellow/10 rounded-full flex items-center justify-center mb-4"><i data-lucide="users" class="text-custom-yellow w-8 h-8"></i></div><h3 class="text-xl font-bold">Topluluk Desteği</h3></div><p class="text-center text-base text-gray-600">Projenin amacı doğrultusunda Türkiye'deki FIRST takımlarına döküman veya videolara dair sorularınızı sorun.</p></div></div></div></section>
+
+      <section class="bg-gray-50 py-20">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div class="text-center mb-16">
+                  <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Öne Çıkan Kurslar</h2>
+                  <p class="text-xl text-gray-600">En popüler ve etkili kurslarımızla FIRST yolculuğunuza başlayın</p>
+              </div>
+
+              <div id="api-courses-container" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                </div>
+
+              <div class="text-center mt-12">
+                  <a href="/courses.html" class="inline-flex items-center justify-center border-2 border-custom-yellow text-custom-yellow hover:bg-custom-yellow hover:text-white px-8 py-3 text-lg font-semibold rounded-md">Tüm Kursları Görüntüle</a>
+              </div>
+          </div>
+      </section>
+
+      <section id="contributors" class="bg-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16"><h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Destekleyen Takımlar<p class="text-xl font-light text-gray-900">Bu platformun gelişimine katkıda bulunan değerli FIRST takımları</p></div>
+            <div class="logo-slider-container">
+                <button id="prevBtn" class="slider-arrow left"><i data-lucide="chevron-left" class="text-gray-700"></i></button>
+                <div class="logo-slider-track">
+                <div class="logo-slide"><img src="assets/images/cosmos.png" alt="Cosmos Robot Works 7742"></div>
+                <div class="logo-slide"><img src="assets/images/kalsedon.png" alt="Kalsedon 6430"></div>
+                <div class="logo-slide"><img src="assets/images/mat.png" alt="MAT Robotics 6228"></div>
+                    </div>
+                <button id="nextBtn" class="slider-arrow right"><i data-lucide="chevron-right" class="text-gray-700"></i></button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    
+    <section class="bg-custom-yellow py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"><div class="space-y-6"><h2 class="text-3xl lg:text-4xl font-bold text-white">FIRST Maceranıza İlk Adımı Atmaya Hazır mısınız?</h2><p class="text-xl text-white/90 max-w-2xl mx-auto">Robotik dünyasında yol gösterecek tüm kaynaklar burada. Ücretsiz eğitim içeriklerimiz ve takım destek programlarımızla hem bireysel katılımcıları hem de takımları başarıya taşıyoruz.</p><div class="flex flex-col sm:flex-row gap-4 justify-center"><a href="/courses.html" class="inline-flex items-center justify-center bg-white text-custom-yellow hover:bg-gray-100 px-8 py-3 text-lg font-semibold rounded-md"><i data-lucide="book-open" class="mr-2 w-5 h-5"></i></a><a href="/team-login.html" class="inline-flex items-center justify-center border-2 border-white text-white hover:bg-white hover:text-custom-yellow px-8 py-3 text-lg font-semibold rounded-md"><i data-lucide="log-in" class="mr-3 w-5 h-5"></i></a></div></div></div>
+    </section>
+  </div>
+
+
+  <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          lucide.createIcons();
+          // Dil ve Mobil Menü Kontrolü
+const langToggle = document.getElementById('lang-toggle');
+const langDropdown = document.getElementById('lang-dropdown');
+if (langToggle && langDropdown) {
+    langToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        langDropdown.classList.toggle('hidden'); // hidden classını aç kapat yapar
+    });
+}
+
+          const container = document.querySelector('.hero-ss-container');
+          const track     = document.getElementById('heroSS');
+          if (!container || !track) return;
+
+          const slides = Array.from(track.children);
+          const prev   = document.getElementById('prevSS');
+          const next   = document.getElementById('nextSS');
+          const dots   = Array.from(document.querySelectorAll('#dotsSS .hero-ss-dot'));
+
+          const AUTO_MS = 4000;               // her 4 sn'de geç
+          let timer = null;
+
+          const width = () => track.clientWidth;
+          const idx   = () => Math.round(track.scrollLeft / width());
+
+          function goTo(i, smooth = true) {
+              track.scrollTo({ left: i * width(), behavior: smooth ? 'smooth' : 'auto' });
+              updateDots(i);
+          }
+
+          function updateDots(i = idx()) {
+              dots.forEach((d, k) => d.classList.toggle('active', k === i));
+          }
+
+          function nextSlide() { goTo((idx() + 1) % slides.length); }
+          function prevSlide() { goTo((idx() - 1 + slides.length) % slides.length); }
+
+          function start() {
+              stop();
+              const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+              if (!prefersReduced) timer = setInterval(nextSlide, AUTO_MS);
+          }
+          function stop() { if (timer) clearInterval(timer); timer = null; }
+
+          if (next) next.addEventListener('click', () => { stop(); nextSlide(); start(); });
+          if (prev) prev.addEventListener('click', () => { stop(); prevSlide(); start(); });
+
+          container.addEventListener('mouseenter', stop);
+          container.addEventListener('mouseleave', start);
+
+          track.addEventListener('pointerdown', stop);
+          track.addEventListener('pointerup',   start);
+
+          document.addEventListener('visibilitychange', () => {
+              if (document.hidden) stop(); else start();
+          });
+
+          new ResizeObserver(() => goTo(idx(), false)).observe(track);
+
+          updateDots(0);
+          start();
+      });
+      
+        async function fetchFeaturedCourses() {
+    try {
+        const response = await fetch('http://localhost:8080/api/courses');
+        const courses = await response.json();
+        
+        const container = document.getElementById('api-courses-container');
+        if (!container) return;
+
+        container.innerHTML = ''; // İçini temizle
+
+        // Sadece ilk 3 kursu gösterelim (Öne çıkanlar olduğu için)
+        const featured = courses.slice(0, 3);
+
+        featured.forEach(course => {
+            container.innerHTML += `
+                <div class="bg-white border-2 border-gray-100 hover:border-custom-yellow transition-all rounded-xl p-6 shadow-sm group">
+                    <div class="w-12 h-12 bg-custom-yellow/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-custom-yellow transition-colors">
+                        <i data-lucide="book-open" class="text-custom-yellow group-hover:text-white w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">${course.title}</h3>
+                    <p class="text-gray-600 text-sm mb-4">Bu kurs içeriği veritabanından dinamik olarak çekilmiştir.</p>
+                    <a href="${course.link}" target="_blank" class="inline-flex items-center text-custom-yellow font-semibold hover:gap-2 transition-all">
+                        Eğitime Git <i data-lucide="chevron-right" class="ml-1 w-4 h-4"></i>
+                    </a>
+                </div>
+            `;
+        });
+
+        // Yeni eklenen ikonları Lucide'in tanıması için tekrar çalıştırıyoruz
+        lucide.createIcons();
+
+    } catch (error) {
+        console.error("API'den kurslar çekilemedi:", error);
+        document.getElementById('api-courses-container').innerHTML = '<p class="text-red-500">API bağlantısı kurulamadı. Lütfen Go API\'nın çalıştığından emin olun.</p>';
+    }
+}
+
+// Sayfa yüklendiğinde çalıştır
+document.addEventListener('DOMContentLoaded', fetchFeaturedCourses);
+    
+
+      (function () {
+          const section = document.getElementById('contributors');
+          if (!section) return;
+
+          const container = section.querySelector('.logo-slider-container');
+          const track     = section.querySelector('.logo-slider-track');
+          const prevBtn   = section.querySelector('#prevBtn, .slider-arrow.left');
+          const nextBtn   = section.querySelector('#nextBtn, .slider-arrow.right');
+          if (!container || !track || !prevBtn || !nextBtn) return;
+
+          const slides = Array.from(track.querySelectorAll('.logo-slide'));
+          if (slides.length === 0) return;
+
+          function imagesReady(el) {
+              const imgs = Array.from(el.querySelectorAll('img'));
+              if (imgs.length === 0) return Promise.resolve();
+              return Promise.all(imgs.map(img => img.complete ? Promise.resolve() : new Promise(res => {
+                  img.addEventListener('load',  res, { once:true });
+                  img.addEventListener('error', res, { once:true });
+              })));
+          }
+
+          const AUTO_MS = 3000;
+          let cur = 0;
+          let timer = null;
+
+          function setActive(i) {
+              slides.forEach((s, k) => s.classList.toggle('is-active', k === i));
+          }
+          function goTo(i) {
+              cur = (i + slides.length) % slides.length;
+              setActive(cur);
+          }
+          function next() { goTo(cur + 1); }
+          function prev() { goTo(cur - 1); }
+
+          function start() {
+              stop();
+              const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+              if (!prefersReduced && slides.length > 1) {
+                  timer = setInterval(next, AUTO_MS);
+              }
+          }
+          function stop() { if (timer) clearInterval(timer); timer = null; }
+
+          nextBtn.addEventListener('click', () => { stop(); next(); start(); });
+          prevBtn.addEventListener('click', () => { stop(); prev(); start(); });
+
+          container.addEventListener('mouseenter', stop);
+          container.addEventListener('mouseleave', start);
+
+          container.addEventListener('keydown', (e) => {
+              if (e.key === 'ArrowRight') { stop(); next(); start(); }
+              if (e.key === 'ArrowLeft')  { stop(); prev(); start(); }
+          });
+          container.tabIndex = 0;
+
+          imagesReady(track).then(() => {
+              setActive(cur);
+              const multi = slides.length > 1;
+              prevBtn.style.display = multi ? '' : 'none';
+              nextBtn.style.display = multi ? '' : 'none';
+              start();
+          });
+      })();
+  </script>
+</body>
+</html>
