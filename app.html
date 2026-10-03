@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rookieverse App</title>
+<style>
+  :root {
+    --gold: #e5ae32;
+    --gold-dark: #c99a24;
+    --cream: #fdfaf2;
+    --card: #f5f0e0;
+    --line: #e8e0c8;
+    --ink: #111827;
+    --muted: #6b7280;
+    --soft: #9ca3af;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--cream); color: var(--ink); }
+  a { text-decoration: none; color: inherit; }
+  button { font-family: inherit; cursor: pointer; border: none; }
+
+  header {
+    position: sticky; top: 0; z-index: 10;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 20px; background: var(--cream); border-bottom: 1px solid var(--line);
+  }
+  .logo { font-weight: 900; letter-spacing: .5px; font-size: 17px; }
+  .logo b { color: var(--gold); }
+  .backBtn {
+    display: inline-block; background: #fff; border: 1px solid var(--line);
+    padding: 7px 14px; border-radius: 999px; font-size: 13px; font-weight: 800; margin: 0 0 12px;
+  }
+  .backBtn:hover { background: var(--card); }
+
+  main { max-width: 1100px; margin: 0 auto; padding: 20px; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
+  .courseCard {
+    background: #fff; border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
+    transition: transform .15s, box-shadow .15s; cursor: pointer; display: flex; flex-direction: column;
+  }
+  .courseCard:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(17,24,39,.08); }
+  .courseCard img.cover { width: 100%; height: 140px; object-fit: cover; background: var(--card); }
+  .courseBody { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .badges { display: flex; gap: 6px; flex-wrap: wrap; }
+  .badge {
+    background: var(--gold); color: var(--ink); font-size: 10px; font-weight: 800;
+    padding: 3px 8px; border-radius: 999px; text-transform: uppercase;
+  }
+  .badge.alt { background: var(--card); color: var(--muted); }
+  .courseTitle { font-size: 15px; font-weight: 800; line-height: 1.25; }
+  .courseTeam { font-size: 12px; color: var(--muted); font-weight: 600; }
+  .courseMeta { margin-top: auto; font-size: 11px; color: var(--soft); }
+
+  .cover-hero { width: 100%; max-height: 260px; object-fit: cover; border-radius: 14px; border: 1px solid var(--line); background: var(--card); }
+  h1.big { font-size: 24px; font-weight: 900; line-height: 1.2; margin: 12px 0 4px; }
+  .teamLine { color: var(--muted); font-size: 13px; font-weight: 700; margin-bottom: 8px; }
+  .desc { color: #4b5563; font-size: 14px; line-height: 1.6; margin-bottom: 18px; }
+  .divider { height: 1px; background: var(--line); margin: 18px 0; }
+  .sectionLabel { color: var(--gold); font-size: 11px; font-weight: 800; letter-spacing: 2px; }
+  .sectionTitle { font-size: 19px; font-weight: 800; margin: 2px 0 14px; }
+
+  .moduleCard { background: var(--card); border: 1px solid var(--line); border-radius: 14px; margin-bottom: 10px; overflow: hidden; }
+  .moduleHeader {
+    width: 100%; display: flex; align-items: center; gap: 12px;
+    padding: 14px 16px; background: transparent; text-align: left;
+  }
+  .moduleNum {
+    width: 32px; height: 32px; border-radius: 16px; background: var(--gold);
+    display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 14px; flex-shrink: 0;
+  }
+  .moduleTitle { font-weight: 700; font-size: 15px; flex: 1; }
+  .moduleType { font-size: 11px; color: var(--muted); font-weight: 700; text-transform: uppercase; }
+  .moduleArrow { color: var(--soft); font-size: 13px; transition: transform .2s; }
+  .moduleArrow.open { transform: rotate(180deg); color: var(--gold); }
+
+  .lessonItem {
+    display: flex; align-items: center; gap: 12px; padding: 12px 16px;
+    border-top: 1px solid var(--line); background: var(--cream); cursor: pointer;
+  }
+  .lessonItem:hover { background: #fff; }
+  .lessonIcon { width: 32px; height: 32px; border-radius: 8px; background: var(--card); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .lessonTitle { font-size: 14px; font-weight: 600; flex: 1; }
+
+  .playerWrap { background: #000; border-radius: 14px; overflow: hidden; margin-bottom: 14px; }
+  .playerWrap video { width: 100%; max-height: 70vh; display: block; }
+  .playerWrap iframe { width: 100%; height: 78vh; border: 0; display: block; background: #fff; }
+  .playerTitle {
+    color: #fff; background: #1f2937; padding: 10px 16px; font-size: 14px; font-weight: 700;
+    display: flex; justify-content: space-between; gap: 10px; align-items: center; flex-wrap: wrap;
+  }
+  .playerTitle .t { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .textCard { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 18px; margin-bottom: 14px; white-space: pre-line; font-size: 14px; line-height: 1.7; color: #374151; }
+  .actionRow { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 4px; }
+  .goldBtn { background: var(--gold); color: var(--ink); font-weight: 800; padding: 10px 18px; border-radius: 12px; font-size: 14px; }
+  .ghostBtn { background: #fff; color: var(--ink); border: 1px solid var(--line); font-weight: 700; padding: 10px 18px; border-radius: 12px; font-size: 14px; }
+  .ghostBtn:hover { background: var(--card); }
+  .miniLink { color: var(--gold-dark); font-weight: 800; font-size: 12px; }
+
+  .note { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; padding: 12px 14px; border-radius: 12px; font-size: 13px; line-height: 1.5; margin-bottom: 16px; }
+  .err { background: #fee2e2; color: #991b1b; border: 1px solid #fecaca; }
+  .loading { text-align: center; color: var(--muted); padding: 60px 0; }
+  .spinner { width: 34px; height: 34px; border: 4px solid var(--line); border-top-color: var(--gold); border-radius: 50%; margin: 0 auto 12px; animation: spin 1s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="#/">ROOKIE<b>VERSE</b> · App</a>
+  <a class="miniLink" href="courses.php" target="_blank" rel="noopener">Klasik siteye git ↗</a>
+</header>
+<main id="app"><div class="loading"><div class="spinner"></div>Yükleniyor…</div></main>
+
+<script>
+"use strict";
+const ICONS = { video: "▶", youtube: "📺", pdf: "📄", text: "📝" };
+
+// ---- yardımcılar -----------------------------------------------------------
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, ch => (
+    { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]
+  ));
+}
+function digits(s) {
+  const m = String(s ?? "").match(/\d+/g);
+  return m ? parseInt(m.join(""), 10) : 0;
+}
+async function fetchDoc(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(url + " -> HTTP " + res.status);
+  const text = await res.text();
+  return new DOMParser().parseFromString(text, "text/html");
+}
+const app = document.getElementById("app");
+
+// ---- kazıyıcılar (site HTML'i → veri) --------------------------------------
+// courses.php → kurs kartları
+function parseCourses(doc) {
+  return [...doc.querySelectorAll(".course-card")].map(card => {
+    const link = card.querySelector("a");
+    const titleEl = card.querySelector("h3");
+    const title = (titleEl?.textContent || "").trim();
+    if (!title || !link) return null;
+    return {
+      uid: new URL(link.getAttribute("href"), location.href).searchParams.get("course") || "",
+      title,
+      desc: (card.querySelector("p.line-clamp-3")?.textContent || "").trim(),
+      level: (card.querySelector("span.text-green-800")?.textContent || "").trim(),
+      category: (card.querySelector("span.text-blue-800")?.textContent || "").trim(),
+      team: (card.querySelector(".team-name-button")?.textContent || "").trim(),
+      cover: card.querySelector("img")?.getAttribute("src") || "",
+    };
+  }).filter(Boolean);
+}
+
+// courseDetails.php → öğrenci sayısı + modül listesi + kurs iç numarası
+function parseCourseDetail(doc, courseUid) {
+  const usersIcon = doc.querySelector('i[data-lucide="users"]');
+  const student = usersIcon ? digits(usersIcon.parentElement?.textContent) : 0;
+  const modules = [...doc.querySelectorAll("div.modulePlayer")].map((el, i) => {
+    const mid = el.getAttribute("data-moduleid") || "";
+    const ord = parseInt(el.getAttribute("data-ord") || "0", 10);
+    return {
+      moduleId: mid,
+      ord,
+      title: (el.querySelector("h4")?.textContent || ("Modül " + (i + 1))).trim(),
+      // sitenin JS'i ile aynı adres kalıbı: ord = data-ord - 1
+      watchUrl: `moduleDetails.php?course=${encodeURIComponent(courseUid)}&id=${encodeURIComponent(mid)}&ord=${ord - 1}`,
+    };
+  }).filter(m => m.moduleId);
+  const internalId = (doc.documentElement.outerHTML.match(/const\s+course_id\s*=\s*(\d+)/) || [])[1] || "";
+  return { student, modules, internalId };
+}
+
+// moduleDetails.php → modülün tüm içerikleri (video/youtube/pdf/metin)
+function parseModuleContents(doc, fallbackTitle) {
+  const out = [];
+  doc.querySelectorAll("video").forEach(v => {
+    const src = v.querySelector("source[src]")?.getAttribute("src") || v.getAttribute("src") || "";
+    if (src.trim()) out.push({ type: "video", title: fallbackTitle, data: src.trim() });
+  });
+  doc.querySelectorAll("iframe[src]").forEach(f => {
+    const src = f.getAttribute("src") || "";
+    if (/youtube\.com\/embed|youtu\.be|youtube-nocookie\.com/.test(src)) {
+      out.push({ type: "youtube", title: fallbackTitle + " (YouTube)", data: src.trim() });
+    }
+  });
+  doc.querySelectorAll("a[download]").forEach(a => {
+    const href = a.getAttribute("href") || "";
+    if (!href.trim()) return;
+    const card = a.closest("div.bg-white");
+    const title = (card?.querySelector("div.font-medium")?.textContent || "Doküman").trim();
+    out.push({ type: "pdf", title, data: href.trim() });
+  });
+  doc.querySelectorAll("div.whitespace-pre-line").forEach(t => {
+    const txt = (t.textContent || "").trim();
+    if (txt) out.push({ type: "text", title: fallbackTitle, data: txt });
+  });
+  return out;
+}
+
+// ---- durum + akış ----------------------------------------------------------
+let coursesCache = null;
+
+// site, modüle erişim izni yoksa 403+Location verir ya da courseDetails.php'ye
+// yönlendirir; iki durumu da "kayıt yok" sayarız.
+async function fetchModulePage(watchUrl) {
+  const res = await fetch(watchUrl);
+  const enrolled = res.ok && res.url.includes("moduleDetails.php");
+  return { doc: new DOMParser().parseFromString(await res.text(), "text/html"), enrolled, finalUrl: res.url };
+}
+
+async function ensureEnrolled(internalCourseId) {
+  await fetch("addStudent.php", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: "id=" + encodeURIComponent(internalCourseId),
+  });
+  // addStudent aynı zamanda access_course_<id> çerezini basar; tarayıcı saklar.
+}
+
+// ---- görünümler ------------------------------------------------------------
+async function showCourses() {
+  app.innerHTML = '<div class="loading"><div class="spinner"></div>Kurslar yükleniyor…</div>';
+  try {
+    if (!coursesCache) {
+      coursesCache = parseCourses(await fetchDoc("courses.php"));
+    }
+    if (!coursesCache.length) {
+      app.innerHTML = '<div class="note">Kurs bulunamadı.</div>';
+      return;
+    }
+    app.innerHTML = '<div class="grid" id="grid"></div>';
+    const grid = document.getElementById("grid");
+    coursesCache.forEach((c, idx) => {
+      const card = document.createElement("div");
+      card.className = "courseCard";
+      card.innerHTML =
+        '<img class="cover" src="' + esc(c.cover) + '" alt="" onerror="this.style.visibility=\'hidden\'">' +
+        '<div class="courseBody">' +
+          '<div class="badges"><span class="badge">' + esc(c.category) + '</span>' +
+          (c.level ? '<span class="badge alt">' + esc(c.level) + '</span>' : "") + '</div>' +
+          '<div class="courseTitle">' + esc(c.title) + '</div>' +
+          '<div class="courseTeam">⚡ ' + esc(c.team) + '</div>' +
+        '</div>';
+      card.addEventListener("click", () => { location.hash = "#/course/" + idx; });
+      grid.appendChild(card);
+    });
+  } catch (e) {
+    app.innerHTML = '<div class="note err">Kurslar yüklenemedi: ' + esc(e.message) + '</div>';
+  }
+}
+
+async function showCourse(idx) {
+  const course = coursesCache && coursesCache[idx];
+  if (!course) { showCourses(); return; }
+  app.innerHTML = '<div class="loading"><div class="spinner"></div>Kurs yükleniyor…</div>';
+  let detail;
+  try {
+    const doc = await fetchDoc("courseDetails.php?course=" + encodeURIComponent(course.uid));
+    detail = parseCourseDetail(doc, course.uid);
+  } catch (e) {
+    app.innerHTML = '<div class="note err">Kurs yüklenemedi: ' + esc(e.message) + '</div>';
+    return;
+  }
+  window.__currentCourse = { idx, course, modules: detail.modules, internalId: detail.internalId };
+
+  app.innerHTML =
+    '<a class="backBtn" href="#/">← Geri</a>' +
+    '<img class="cover-hero" src="' + esc(course.cover) + '" alt="" onerror="this.style.display=\'none\'">' +
+    '<h1 class="big">' + esc(course.title) + '</h1>' +
+    '<div class="badges" style="margin:6px 0 8px"><span class="badge">' + esc(course.category) + '</span>' +
+      (course.level ? '<span class="badge alt">' + esc(course.level) + '</span>' : "") + '</div>' +
+    '<div class="teamLine">⚡ ' + esc(course.team) + ' · ' + (detail.student ? detail.student + " öğrenci" : "öğrenci sayısı bilinmiyor") + '</div>' +
+    (course.desc ? '<p class="desc">' + esc(course.desc) + '</p>' : "") +
+    '<div class="divider"></div>' +
+    '<div class="sectionLabel">KURS İÇERİĞİ</div>' +
+    '<div class="sectionTitle">' + detail.modules.length + ' Modül</div>' +
+    '<div id="modList"></div>';
+
+  const list = document.getElementById("modList");
+  detail.modules.forEach((mod, i) => {
+    const card = document.createElement("div");
+    card.className = "moduleCard";
+    card.innerHTML =
+      '<button class="moduleHeader" data-i="' + i + '">' +
+        '<div class="moduleNum">' + (i + 1) + '</div>' +
+        '<div class="moduleTitle">' + esc(mod.title) + '</div>' +
+        '<div class="moduleArrow">▶</div>' +
+      '</button><div class="lessonSlot"></div>';
+    card.querySelector(".moduleHeader").addEventListener("click", () => {
+      location.hash = "#/watch/" + idx + "/" + i;
+    });
+    list.appendChild(card);
+  });
+}
+
+async function showWatch(idx, modIdx) {
+  const ctx = window.__currentCourse;
+  if (!ctx || ctx.idx !== idx) {
+    // doğrudan linke gelindiyse kursu önce yükle
+    if (!coursesCache) await showCourses();
+    const c = coursesCache && coursesCache[idx];
+    if (!c) { app.innerHTML = '<div class="note err">Kurs bulunamadı.</div>'; return; }
+    const doc = await fetchDoc("courseDetails.php?course=" + encodeURIComponent(c.uid));
+    const d = parseCourseDetail(doc, c.uid);
+    window.__currentCourse = { idx, course: c, modules: d.modules, internalId: d.internalId };
+  }
+  const { course, modules } = window.__currentCourse;
+  const mod = modules[modIdx];
+  if (!mod) { app.innerHTML = '<div class="note err">Modül bulunamadı.</div>'; return; }
+
+  app.innerHTML = '<div class="loading"><div class="spinner"></div>Ders yükleniyor…</div>';
+
+  let page;
+  try {
+    page = await fetchModulePage(mod.watchUrl);
+    if (!page.enrolled) {
+      // Kursa kayıt yok → anonim kayıt at, tekrar dene (sayaç yalnızca burada artar)
+      await ensureEnrolled(window.__currentCourse.internalId);
+      page = await fetchModulePage(mod.watchUrl);
+    }
+  } catch (e) {
+    app.innerHTML = '<div class="note err">Ders yüklenemedi: ' + esc(e.message) + '</div>';
+    return;
+  }
+
+  const contents = parseModuleContents(page.doc, mod.title);
+  const prev = modules[modIdx - 1], next = modules[modIdx + 1];
+
+  let body = "";
+  if (!contents.length) {
+    body = '<div class="note">Bu modülde görüntülenebilir içerik bulunamadı.</div>';
+  }
+  contents.forEach(ct => {
+    if (ct.type === "video") {
+      body += '<div class="playerWrap"><div class="playerTitle"><span class="t">' + esc(ct.title) + '</span></div>' +
+              '<video src="' + esc(ct.data) + '" controls></video></div>';
+    } else if (ct.type === "youtube") {
+      body += '<div class="playerWrap"><div class="playerTitle"><span class="t">' + esc(ct.title) + '</span></div>' +
+              '<iframe src="' + esc(ct.data) + '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="YouTube"></iframe></div>';
+    } else if (ct.type === "pdf") {
+      body += '<div class="playerWrap"><div class="playerTitle"><span class="t">' + esc(ct.title) + '</span>' +
+              '<a class="ghostBtn" style="padding:6px 12px;font-size:12px" href="' + esc(ct.data) + '" target="_blank" rel="noopener">Yeni sekmede aç ↗</a></div>' +
+              '<iframe src="' + esc(ct.data) + '" title="PDF görüntüleyici"></iframe></div>' +
+              '<div class="actionRow" style="margin:-6px 0 14px"><a class="goldBtn" href="' + esc(ct.data) + '" download>⬇ İndir</a></div>';
+    } else if (ct.type === "text") {
+      body += '<div class="textCard">' + esc(ct.data) + '</div>';
+    }
+  });
+
+  app.innerHTML =
+    '<a class="backBtn" href="#/course/' + idx + '">← Kursa Dön</a>' +
+    body +
+    '<div class="actionRow">' +
+      (prev ? '<button class="ghostBtn" id="prevBtn">◀ Önceki Modül</button>' : "") +
+      (next ? '<button class="goldBtn" id="nextBtn">Sonraki Modül ▶</button>' : "") +
+    '</div>';
+
+  if (prev) document.getElementById("prevBtn").addEventListener("click", () => { location.hash = "#/watch/" + idx + "/" + (modIdx - 1); });
+  if (next) document.getElementById("nextBtn").addEventListener("click", () => { location.hash = "#/watch/" + idx + "/" + (modIdx + 1); });
+}
+
+// ---- hash router -----------------------------------------------------------
+function route() {
+  const h = location.hash || "#/";
+  window.scrollTo(0, 0);
+  const c = h.match(/^#\/course\/(\d+)$/);
+  const w = h.match(/^#\/watch\/(\d+)\/(\d+)$/);
+  if (c) showCourse(+c[1]);
+  else if (w) showWatch(+w[1], +w[2]);
+  else showCourses();
+}
+window.addEventListener("hashchange", route);
+route();
+</script>
+</body>
+</html>
